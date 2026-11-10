@@ -29,73 +29,57 @@
 
 ## START | Everlight
 [text]
-Willkommen. Hier steht der Einleitungstext zum Spielstart.
-Hinweis zum Spielablauf: Die Geschichte geht über mehrere Stationen. Du scannst jeweils einen Tag mit deinem Telefon.
+Willkommen in Everlight, Reisende.
+Du bist mitten in eine Geschichte gestolpert. In ihr geschehen Wunder. Manche Schatten scheinen übergroß zu sein und verdunkeln das ganze Weltbild. Kleine Freunde werden zu liebgewonnenen Gefährten.
+Du bist nicht nur Beobachterin, sondern spielst selbst mit. Du wirst an echten Orten kleine runde NFC-Tags finden. Halte also stets die Augen offen. Wenn du etwas entdeckst, halte dein iPhone an einen Tag und tippe auf die Meldung, die erscheint. Dann öffnet sich die nächste Station in Safari.
+Du erlebst die Geschichte, löst Aufgaben und bekommst unterwegs Gegenstände. Hebe alles auf. Du brauchst es später. Wenn du bei einer Aufgabe nicht weiterkommst, kannst du dir Hinweise anzeigen lassen.
+Keine Aufgabe wird nach der Qualität bewertet. Es zählt also nur das Ergebnis und nicht der Weg dorthin. Du kannst jederzeit eine Pause machen. Dein Fortschritt wird automatisch auf diesem Telefon gespeichert. Lösche bis zum Ende keine Safari-Daten und nutze keinen privaten Modus.
+An einigen Stellen musst du dich entscheiden. Diese Entscheidungen sind endgültig und verändern, was später geschieht. Achte darauf, was du tust und wie du dich entscheidest.
+Egal, wie diese Reise verläuft, es liegt in deiner Hand, alle wohlbehalten an ihr Ziel zu bringen.
 [symbol]
-Dieses Symbol markiert eine endgültige Entscheidung. Danach gibt es kein Zurück.
-
+Dieses Symbol markiert eine endgültige Entscheidung. Du bestätigst sie, indem du das Symbol zwei Sekunden gedrückt hältst. Danach gibt es kein Zurück.
 
 ## STA-01 | Unbekannte Zeichen
 typ: ruhe
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 1.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Sie schlug die Augen auf. Es war noch früher Morgen und sie spürte, wie der Morgentau noch in der Luft hing. Die kleine Kate am Rande des Waldes von Everlight nannte sie jetzt schon seit etwa acht Jahren ihr Zuhause. Kim richtete sich in ihrem Bett auf, ließ sich aber gleich wieder zurückfallen und stöhnte. Was waren das für verrückte Zeiten gewesen. Vor zwölf Tagen war es ihr als Erstes aufgefallen, als sie unten an der kleinen Quelle Wasser geholt hatte, irgendetwas war anders als sonst. Irgendetwas oder besser irgendjemand hatte den kleinen Trampelpfad zu der Quelle benutzt und offensichtlich dort etwas getrunken. Sie hatte abgeknickte Äste und tiefe Kratzspuren an den Steinen rund um den kleinen Teich gefunden, der sonst so schön mit Moos bewachsen war und aus dessen Tiefen das herrlich klare Wasser sprudelte, mit dem sie ihre Tomaten, Kartoffeln und Karotten goss. Aber an diesem Tag hatte sie innegehalten und war gute zehn Minuten nicht von ihrer Position hinter dem Baum gewichen, von dem aus sie die Quelle beobachten konnte. Aber es hatte sich nichts bewegt und von Minute zu Minute wurde Kim wieder ruhiger. Ihre spitz zulaufenden Ohren, erst noch wild umherzuckend, hatten sich beruhigt und in ihre für Waldelfen übliche Position seitlich an den Kopf angelegt. Trotz all der zurückgekehrten Ruhe war Kim den ganzen Tag über wachsam geblieben und war auch abends lange nicht eingeschlafen. Wer hatte sie gefunden? Wer war in ihr so gut verstecktes Reich eingedrungen und hatte von der Quelle getrunken? Kim machte sich weniger Gedanken darüber, dass jemand sie gefunden haben könnte, viel mehr beunruhigten sie die Kratzspuren, die sie entdeckt hatte. Was für eine Kreatur konnte diese hinterlassen haben? Sie hatte einmal vorher solche Spuren gesehen, aber nein, das konnte nicht sein, das war in ihrem alten Leben gewesen. Nein. Das durfte nicht sein. Es konnte nicht sein. Und was, wenn doch? Kim warf sich herum und knuffte das Kissen zurecht. „Schlaf endlich“, dachte sie und schloss demonstrativ die Augen, als wollte sie sich selbst überzeugen, dass man zum Schlafen die Augen geschlossen haben muss. Nach etlichen weiteren Ermahnungen an sich selbst war sie schließlich in die Traumwelt herübergedriftet, aber im Vergleich zu ihrem sonst so ruhigen Schlaf hatte sie in dieser Nacht keine Ruhe gefunden. Alte Geschichten aus der großen Stadt waren ihr durch den Verstand gegeistert, auch wenn sie alles am nächsten Morgen vergessen hatte. Seitdem war ihr Schlaf nie wieder so tief gewesen wie früher. Die Verspannungen am ganzen Körper, insbesondere in ihrem Nacken, spürte sie an diesem Morgen umso mehr.
+Im Laufe des Tages passierte nichts weiter Spannendes und das Erlebte wurde von der täglichen Arbeit in den Hintergrund gedrängt. Sie hatte es schon fast wieder vergessen und kümmerte sich um ihr kleines Beet, pflückte ein paar reife Himbeeren und jätete etwas Unkraut, das sich zwischen den Karotten breitgemacht hatte. Fröhlich, wie Kim immer war, machte sie sich an diesem Abend heißhungrig über die frischen Schoten Erbsen mit Kartoffelstampf her, das sie sich zu Abend gekocht hatte. Als sie schon fast dabei war, den Teller abzulecken, so sparte sie sich immer den Abwasch, hörte sie aus dem Wald ein Geräusch. Ein Geräusch, das nicht ganz zu den üblichen Waldgeräuschen passte. Es klang wie ein leises Stöhnen. Sie ließ den Teller sinken. Hatte sie sich getäuscht? Das Ratschen der Zikaden, der Wind in den Bäumen, ihr Windspiel, das sie voriges Jahr über ihre Eingangstür gehängt hatte, und wenn sie ganz genau hinhörte, nahm sie sogar das Plätschern der Quelle wahr. Alles so, wie es immer war und wie es immer sein würde. Kim seufzte und legte den Teller beiseite, ihre Ohren mussten ihr einen Streich gespielt haben. Sie stand auf und ging um den Tisch herum, um auch den Topf noch zu reinigen, in dem sie den Kartoffelstampf zubereitet hatte. Als das geschafft war, wurde es dunkel in ihrer kleinen Kate, jetzt, im Herbst, ging die Sonne immer früher unter und die Nächte wurden länger. Kim überlegte, ob sie die Kerzen noch entzünden und etwas weiter an ihrem Festtagsgewand für den Jahrestag nähen sollte, oder ob sie gleich zu Bett gehen sollte. Mit einiger Mühe kramte sie in der Spänekiste, um einen geeigneten Glimmstab zu finden, als sie aber spürte, wie ein Holzsplitter sich durch ihre Haut zu bohren versuchte und stecken blieb, zog sie genervt die Hand zurück. So eilig hatte sie es dann doch nicht, es waren ja immerhin noch zweieinhalb Monde bis zum Jahrestag. Sie ließ Kerze Kerze sein und ging hinüber zu dem Wasserfass, in welchem sie immer Wasser zum Trinken aufbewahrte. Gerade als sie die Kelle mit dem frischen Nass an die Lippen hob, erstarrte sie. Da war das Geräusch wieder, aber dieses Mal glich es eher einem leisen Wimmern, als wäre etwas verletzt worden. Ihre spitzen Ohren zuckten, während sie regungslos verharrte. Ganz vorsichtig ließ sie die Kelle sinken und hängte sie wieder an den Rand des Fasses. Bedacht darauf, keinen Laut von sich zu geben, drehte sie sich um und schlich zum Fenster, wo sie die Gardine ganz leicht anhob, um in die nun fast vollständige Nacht hinauszuspähen. Wie gut, dass sie vorhin kein Licht angezündet hatte. Kurz überlegte sie, ob sie mehr brauchte als ihr Jagdmesser, das sie wie immer am Gürtel trug, entschied sich aber dann dazu, sich auf ihre Sinne zu verlassen, und schlich leise zur Tür.
 
 [weiter]
-Platzhalter. Hinweis auf den nächsten Ort.
+Ich bin bereit und schleiche los!
 
-## STA-02 | Titel folgt
+## STA-02 | Dunkler Wald
 typ: ruhe
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 2.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Eine leichte Brise strich über den Garten und teilte ihre langen Haare über den spitzen Ohren, und da war es wieder, das leise Wimmern, welches sie vorher gehört hatte. Leise schlich sie weiter. Sie zuckte kurz zusammen, als sie das Gartentor hinter sich schloss und der Riegel klappernd in die vorgesehene Mulde fiel. Sie hielt inne, konnte aber kein weiteres Geräusch hören. Nun wandte sie sich dem Wald zu, der ihr trotz der Vertrautheit dunkel und gefahrvoll erschien. Auf Zehenspitzen schleichend folgte sie dem kleinen Pfad zwischen die Bäume ins Dunkel hinein.
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
 
-## STA-03 | Titel folgt
+## STA-03 | Schimmerndes Etwas
 typ: ruhe
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 3.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Als das Dunkel der Bäume sie verschluckte, merkte Kim, wie sich ihre feinen Nackenhärchen aufrichteten und ihre Ohren, nun vor Anspannung zuckend, sich nach rechts und links drehten. Sie verließ sich aber nicht nur auf ihre Ohren, auch ihre Elfenaugen taten nun ihren Dienst, die Pupillen weiteten sich und trotz des spärlichen Lichts hielt sie Ausschau nach Ungewohntem…
+Und richtig, da schimmerte etwas im Dunkeln… Sie schlich darauf zu… 
 
 [weiter]
-Platzhalter. Hinweis auf den nächsten Ort.
+Platzhalter.
 
-## STA-04 | Titel folgt
+## STA-04 | Etwas Glitzerndes
 typ: kleine
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 4.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
-
-[aufgabe]
-Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
-
-[antwort]
-1234
-
-[hinweis]
-Hinweis 1, ein sanfter Anstoß.
----
-Hinweis 2, deutlicher.
----
-Hinweis 3, fast die Lösung.
-
-[geloest]
-Platzhalter. Kim erkennt, was die Lösung bedeutet.
-
-[belohnung]
-Platzhalter. Du erhältst jetzt eine Schuppe.
+Und richtig, da schimmerte etwas im Dunkeln… Sie schlich darauf zu… Was war das denn?
 
 [weiter]
+Platzhalter. Hier steht, wie Sandra die Schuppe bekommt.
 Platzhalter. Hinweis auf den nächsten Ort.
 
 ## STA-05 | Titel folgt
