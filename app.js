@@ -431,11 +431,12 @@
         if (outcome.length) tail.push(h('div', { class: 'story', id: 'blk-outcome' }, [paras(outcome)]));
       }
       if (st.danach.length) tail.push(h('div', { class: 'story' }, [paras(st.danach)]));
-      if (st.weiter.length) tail.push(h('div', { class: 'card story' }, [paras(st.weiter)]));
+      // Mit weiter-zu dient der Abschnitt [weiter] als Beschriftung des Knopfes, sonst als Textkarte.
+      if (st.weiter.length && !st.weiterZu) tail.push(h('div', { class: 'card story' }, [paras(st.weiter)]));
       tail.forEach(function (n) { kids.push(n); });
       if (st.weiterZu && STORY.stations[st.weiterZu]) {
         kids.push(h('button', {
-          class: 'btn primary wide', type: 'button', id: 'next-btn', text: t('nextLabel'),
+          class: 'btn primary wide', type: 'button', id: 'next-btn', text: st.weiter.join(' ') || t('nextLabel'),
           onclick: function () { location.hash = '#' + st.weiterZu; }
         }));
       }

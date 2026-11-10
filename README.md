@@ -20,7 +20,7 @@ Lege bei Bedarf selbst die Ordner images und audio an. In story.txt verweist du 
 3. Jede Zeile unter einem Abschnitt ist ein Absatz. Du kannst Text aus Word zeilenweise einfügen.
 4. Die Überschrift einer Station lautet zum Beispiel `## STA-05 | Titel`. Danach folgen typ, kapitel und die Abschnitte in eckigen Klammern.
 5. Stationen ohne Aufgabe, Code oder Entscheidung enden nach dem Text. Der nächste Schritt ist dann der nächste NFC-Tag.
-6. Mit `weiter-zu: STA-02` unter der Stationsüberschrift zeigt die Station am Ende einen Weiter-Knopf. Er öffnet die genannte Station ohne NFC-Tag. Nutze das für Stationen, die ohne Tag laufen.
+6. Mit `weiter-zu: STA-02` unter der Stationsüberschrift zeigt die Station am Ende einen Weiter-Knopf. Er öffnet die genannte Station ohne NFC-Tag. Der Text unter `[weiter]` ist dann die Beschriftung des Knopfes, zum Beispiel „Ich bin bereit und schleiche los!“. Ohne `[weiter]` heißt der Knopf Weiter.
 7. Stationen mit Aufgabe, Code oder Entscheidung zeigen zuerst den Text und einen Weiter-Knopf. Erst danach erscheint der interaktive Teil.
 8. Speichere die Datei und lade sie neu hoch. Die WebApp lädt Änderungen beim nächsten Öffnen, sobald das Telefon Empfang hat.
 
