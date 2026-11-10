@@ -84,16 +84,17 @@ Und richtig, da schimmerte etwas im Dunkeln… Sie schlich darauf zu… Was war 
 Platzhalter. Hier steht, wie Sandra die Schuppe bekommt.
 Platzhalter. Hinweis auf den nächsten Ort.
 
-## STA-05 | Titel folgt
+## STA-05 | Kratzige Angelegenheit
 typ: volle
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 5.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Je weiter sie dem Pfad folgte, desto mehr zeigten ihre feinen Ohren, dass die Geräusche tatsächlich wieder von der kleinen Quelle kamen, so wie sie es vorher schon vermutet hatte. Sie ging in die Hocke und schlich entlang des kleinen ausgetretenen Pfades weiter in Richtung der Quelle. Auf einmal trat sie unbedacht auf einen Zweig, der durch den Wind auf den Pfad gefallen sein musste. Das laute Knacken, welches der Zweig unter ihrem Schuh verursachte, kam Kim wie eine Explosion in dem still daliegenden Wald vor, ihr Puls schnellte nach oben und sie hatte das Gefühl, dass ihr Herz ihr nun zwischen den Ohren pochte. Sie hielt inne, kauerte sich ganz klein zusammen, bewegte keinen Muskel und horchte in den Wald hinein.
+Als sie da auf dem Weg hockte und dem wimmernden, tiefen Stöhnen lauschte, fielen ihr auf einmal die tiefen Kratzspuren ein, die sie vor zwölf Tagen bei der Quelle entdeckt hatte. Aber nun war es zu spät, ihren Bogen und das kurze Schwert von der Wand zu nehmen. Was immer da an der Quelle auf sie wartete, ihr Messer würde ausreichen müssen. Als sich ihr Herzschlag beruhigt hatte, schlich sie weiter, immer darauf bedacht, auf die gesamte Umgebung zu achten, falls das Etwas vor ihr nicht allein war. Ihr Blick fiel zufällig auf einen abgeknickten Ast und von dort weiter auf einen Stein am Rand des Pfades. Wie ein Hammerschlag drängte sich siedend heiß eine Erinnerung in ihrem Gedächtnis nach vorne. Diese Spuren hatte sie schon einmal gesehen, sie kannte diese Kratzer, alter Schmerz wallte in ihr hoch und ließ sie keuchend zusammensacken. Was war damals geschehen? Der hämmernde Puls in ihrem Kopf, kurzes, flaches Luftholen, das war alles, was Kim zustande brachte. Sie versuchte, sich zu erinnern, warum ihr Körper so heftig auf diesen Anblick reagierte, aber sie konnte nicht. Oder doch? Diese Krallen.
+
 
 [aufgabe]
-Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+Der Stein am Wegrand war eine flache Felsplatte und die Kratzer darauf waren keine wilden Hiebe. Jemand hatte sie in sechs Reihen zu je sechs Feldern geordnet. Jedes Zeichen bestand aus einem bis sechs Kratzern, einige Felder waren leer, vier waren mit einem Ring umrandet. Zähl, dachte Kim. Zähl einfach. Sie presste die Hand auf den kalten Stein und fuhr mit den Fingerspitzen über die Rillen. Ein Kratzer. Drei. Sechs. Mit jedem Zeichen, das sie zählte, wurde der Druck in ihrer Brust ein wenig kleiner. Sie kannte diese Ordnung, auch wenn sie nicht sagen konnte, woher. In keiner Reihe, in keiner Spalte und in keiner der sechs Gruppen durfte ein Zeichen doppelt vorkommen. Wer die leeren Felder richtig füllte, konnte lesen, was die Ringe verrieten.
 
 [antwort]
 1234
@@ -106,7 +107,7 @@ Hinweis 2, deutlicher.
 Hinweis 3, fast die Lösung.
 
 [geloest]
-Platzhalter. Kim erkennt, was die Lösung bedeutet.
+Als die Erinnerung klar wurde, merkte Kim, wie lange sie schon weit weg von ihrer Vergangenheit war. Sie war hier sicher. Niemand aus ihrer Vergangenheit war hier je aufgetaucht. Mit diesen Gedanken erschienen die Kratzer auf einmal gar nicht mehr so gefährlich. 
 
 [entscheidung]
 zustand: ZUS-01
@@ -123,13 +124,13 @@ Platzhalter. Text nach der Entscheidung Nein.
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
 
-## STA-06 | Titel folgt
+## STA-06 | Von kleinen Tieren
 typ: ruhe
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 6.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Und so schlich Kim weiter. Als schließlich nur noch eine Biegung sie von der Sicht auf die Quelle trennte, begann das Wimmern eine andere Form anzunehmen, Kim glaubte Schluchzer und Worte zu verstehen: „kaputt… nein… kaputt.. wie.. muss reparieren… nein… bitte nicht.. ich brauch dich doch…“. Kim horchte auf, das klang gar nicht gefährlich, das klang wie tiefe Trauer und Verzweiflung. Ihr Jagdmesser immer noch fest umklammert, schlich Kim um die letzte Kurve und blieb wie angewurzelt stehen, als sie sah, was oder besser wer sich da an der Quelle befand. Sie ließ das Messer sinken und richtete sich auf. Das kleine geschuppte Wesen vor ihr quietschte erschrocken auf und starrte sie mit großen, tränenunterlaufenen Augen an. „B-b-b-bitte t-t-t-tu mir nichts.“ Sofort wallte Mitleid für den kleinen Kerl in Kim auf, aber sie hatte über lange Jahre gelernt, nicht jedem Anblick sofort zu trauen. „Wer bist du und wie hast du mich gefunden?“, fragte sie herrisch. „Ich.. ich bin doch nur Fridolin, ich komme aus Glimmergipfeln... aber ich bin weggelaufen“, fügte der kleine Kerl trotzig hinzu. Erst jetzt fiel ihr auf, wie klein Fridolin war. „Fridolin heißt du also, aber alle Wesen aus den Glimmergipfeln sind normalerweise viel größer. Ich habe noch nie so einen kleinen Drachen wie dich gesehen“, sagte Kim, jetzt schon etwas ruhiger. „Ich bin ja auch erst 147 Jahre alt“, verteidigte sich Fridolin trotzig. „Aber was macht eine Waldelfe so weit hier draußen. Ich dachte, ich bin hier sicher… vor den anderen Drachen.“ Fridolins große Augen schienen Kim förmlich zu durchleuchten. „Das geht dich gar nichts an, du bist hier auf meinem Land, das ist meine Quelle, von der du da trinkst, ich will nichts mit dir zu schaffen! Mach, dass du das Weite suchst!“ Kim bemerkte gar nicht, wie sie ihr Messer wieder hervorgeholt hatte und nun direkt über dem kleinen Wesen stand und mit pochenden Adern auf ihn hinabstarrte.
+Mit jedem Wort war Fridolin weiter in sich zusammengesunken und erneut kullerten nun Tränen über seine schuppige, grüne Schnauze. Erst jetzt fiel Kim auf, dass er etwas in seinen Vorderklauen umklammert hielt. „Aber… aber.. ich dachte, Waldelfen sind immer freundlich und hilfsbereit“, schniefte er. „Ich dachte, du kannst mir vielleicht helfen.“ „Helfen? Helfen bei was?“, fragte Kim schroff. „Hiermit“, sagte Fridolin und öffnete seine Klauen und streckte Kim etwas Gelbes entgegen. Kim musste sich bücken, um es im Dunkel des Waldes erkennen zu können. „Was ist da..“ Sie musste lachen, als sie erkannte, was Fridolin ihr da entgegenstreckte. Es war ein Teddybär. Am Nacken war die Naht aufgeplatzt und etwas weiße Schafwolle quoll hervor. „Ich habe schon versucht.. aber mit meinen Krallen mache ich ihn noch mehr kaputt.. und ich brauche ihn doch… ohne ihn kann ich nicht richtig schlafen… und überhaupt, wer beschützt mich denn, wenn Teddy kaputt ist… und ich hab keinen Faden…“, stammelte der kleine Drache. „Kannst du mir helfen?… Bitte.... Danach ziehe ich auch wieder meines Weges, aber ich will nur wieder richtig schlafen können.“ Fridolins Kulleraugen schauten Kim flehend an. Kim seufzte: „Na gut, dann komm mal mit!“
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
@@ -139,8 +140,7 @@ typ: kleine
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 7.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Fast musste Kim schmunzeln. Sie gaben schon ein lustiges Duo ab, wie sie da durch den Wald liefen. Die große, schlanke Waldelfe vorneweg und ein kleiner, grüner, unbeholfen watschelnder Drache mit einem Teddybär in den Klauen hintendrein. Als sie die Lichtung betraten, die Kim ihr Eigen nannte, hörte sie, wie Fridolin die Luft ausstieß und ein kleines, gehauchtes „Wow“ verlauten ließ. „Du hast es hier so toll! Und sind das etwa Karotten?!“, fragte er verzückt, als sie das kleine Gartentor passierten. Kim rümpfte die Nase: „Ja, das sind Karotten, aber wie alles hier gehören die auch mir. Ich habe sie den ganzen Sommer gepflegt.“ Ein schmatzendes Geräusch hinter ihr unterbrach sie. Schon merkte sie, wie ihre Geduld dünner wurde. Sie drehte sich um und erblickte Fridolin, wie er sich, den Teddy unter den Arm geklemmt, drei ihrer prächtigen Karotten auf einmal in das weit aufgerissene Drachenmaul stopfte. Fridolin bemerkte ihren Blick und hielt inne: „Waff ist?“, fragte er, das Maul voller Karotten. „Das. Sind. Meine. Karotten.“ Kim konnte kaum an sich halten. Fridolin wich einige kleine Schritte vor der wutentbrannten Elfe zurück, schluckte einmal laut und sagte dann: „Entschuldigung, weißt du, so leckere Karotten sind meine Leibspeise! Seit Monaten träume ich von so saftigen wie diesen hier. Ich entstamme nämlich einer langen Reihe stolzer vegetarischer Drachen, musst du wissen!“ 
 
 [aufgabe]
 Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
@@ -169,8 +169,10 @@ typ: volle
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 8.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Kim ließ sich nicht beeindrucken. Zu sehr schmerzte der Verlust ihrer kostbaren Karotten. Sie machte kehrt und ging zur Kate. „Wir reparieren deinen Teddy und dann verschwindest du von hier!“ Fridolin tapselte mit hängendem Kopf und hinterherschleifendem Schwanz hinter ihr her.
+Sie stieß die Tür mit solcher Wucht auf, dass der Bastkorb, den sie immer zum Sammeln der Waldbeeren benutzte, zu Boden fiel und mitten in den Raum rollte. Genervt wollte sie danach greifen, aber zu ihrem Erstaunen war Fridolin schneller. Er witschte ihr zwischen den Beinen durch und schnappte sich den Korb. „Wo soll ich den hinhängen?“, fragte er so beflissen, als wollte er die immer noch grimmig dreinschauende Elfe besänftigen. „Gib her!“ Kim riss ihm den Korb aus den Klauen und hängte ihn an seinen angestammten Platz hinter der Tür. „Setz dich DA hin“, sie wies auf einen Schemel nahe dem Herd, „und halte um Waiwais willen die Füße still.“ Kim wagte es erst, sich wegzudrehen, als Fridolin auf besagtem Schemel saß und fröhlich mit den Beinen wackelte. Sie entzündete eine Kerze auf dem Tisch. Sie musste diesen Störenfried schleunigst loswerden. Er war nicht nur in ihr Reich eingedrungen, er verspeiste auch ihre Karotten mit einem Genuss, der Kim zutiefst zuwider war. Sie ging zum Schrank, in dessen Tiefen sie ihre Nähsachen aufbewahrte. Sie öffnete die Schranktür und ein Stück ihres grün schillernden Festtagsgewands fiel heraus. Hinter sich hörte sie ein leise gehauchtes „Wooow“ von Fridolin. „Ganz recht“, dachte sie, „ich werde dir schon zeigen, wie man einen Teddy flickt, und dann kannst du schnellstmöglich wieder abziehen!“
+Als sie mit ihrem Nähzeug zu Fridolin zurückkam, sah sie, dass er auf dem Schemel saß, den Teddy neben sich, und mit seinen Stummelärmchen versuchte, die Tür zu ihrem Vorratsschrank zu öffnen. Als er sie bemerkte, drehte er sich schnell zu ihr um und verzog unschuldig das Maul. „Kommst du jetzt bitte zum Tisch und lässt meine Sachen da endlich in Ruhe?“, fragte Kim mürrisch. Fridolin stand auf und klemmte sich den Teddy unter den Arm, ohne einen Mucks von sich zu geben. Als Kim die Nähsachen auf ihrem Tisch abstellte, hörte sie hinter sich ein gedämpftes Schnurpsen. Als sie Fridolin ansah, schluckte er heftig und öffnete, wie zur Bestätigung, dass sein Maul leer war, den Drachenrachen: „Ahhhhhh, siehst du, alles leer“, sagte er. Kim sah in das weit aufgerissene Maul und auf die mit Karottenstückchen übersäten Drachenzähne. Ihr fiel ein, dass sie erst gestern die ersten frischen Karotten der Saison in den Vorratsschrank gelegt hatte. Sie öffnete die Tür, und tatsächlich: Dort, wo die Karotten hätten liegen sollen, war nichts als gähnende Leere.
+Kim drehte sich wutschnaubend um, marschierte auf Fridolin zu und pikste ihm den Finger in die Brust: „DU DRINGST HIER IN MEIN REICH EIN. DU frisst meine Karotten, UNGEFRAGT. Du benimmst dich wie das Allerletzte.“ Sie holte einmal tief Luft.
 
 [aufgabe]
 Platzhalter für die Handarbeit oder Zeichenaufgabe.
@@ -182,10 +184,15 @@ ja: Ja
 nein: Nein
 
 [ja]
-Platzhalter. Text nach der Entscheidung Ja.
+Aber… wenn ich jetzt die Fassung verliere, habe ich dich noch ewig hier herumhängen, und ich möchte dich so schnell wie nur möglich wieder loswerden“, sagte sie. „Damit ich mein schönes Heim wieder für mich allein habe“, fügte sie in Gedanken hinzu.
+Sie nahm Fridolin den Teddy aus dem Arm, fädelte Nadel und Faden ein und begann zu nähen. Sie vertiefte sich ganz in ihre Arbeit und merkte gar nicht, dass Fridolin aufgestanden war und durch die Kate watschelte. Mal zupfte er hieran, mal schnüffelte er daran. Einmal fiel leise die Tür ins Schloss, doch Kim bemerkte es nicht.
+Kaum hatte sie den letzten Faden vernäht, hörte sie es in der kleinen Küche klappern. Sie sah zu Fridolin hinüber, der sich bereits an ihren Töpfen am Herd zu schaffen machte. 
 
 [nein]
-Platzhalter. Text nach der Entscheidung Nein.
+Dann schrie sie den kleinen Drachen aus vollem Hals an: „MACH DEIN SCHEISS ALLEINE UND VERSCHWINDE!“ Sie knallte die Faust auf den Tisch, sodass die Nähsachen hüpften, und stürmte aus der Kate hinaus in ihren still daliegenden Garten. Tiefe Wut waberte in ihr. Sie wusste gar nicht mehr, wann eine Emotion sie zuletzt so weggefegt und in ihren Fluten mitgerissen hatte.
+Noch immer schwer atmend sah sie sich um und ließ ihrem Blick freien Lauf, dorthin zu wandern, wohin er wollte. Er fiel auf das angelehnte Gartentor und dann auf die Karottenstummel, die noch immer im Beet verstreut lagen. Schnaubend und leise vor sich hin brabbelnd, schloss sie erst das Tor und sammelte dann alle Karottenstümmelchen auf, die Fridolin hatte liegen lassen.
+Als sie damit fertig war, drehte sie sich zur Kate um und ging mit den Stümmelchen in der Hand durch die Tür. Auf dem Tisch lag der Teddy, die Naht schief, aber geschlossen, daneben ein abgebrochenes Stück Kralle. Sie hörte es in der Küche klappern und sah zu Fridolin hinüber, der sich bereits an ihren Töpfen am Herd zu schaffen machte. Wortlos legte sie die Stümmelchen neben ihn auf die Anrichte. 
+
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
@@ -195,8 +202,10 @@ typ: ruhe
 kapitel: 1
 
 [text]
-Platzhalter. Hier steht der Text für Station 9.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Wenig später drehte sich Fridolin um und hielt zu Kims Erstaunen zwei dampfende Schalen Haferschleim, garniert mit, wie sollte es anders sein „Karotten…“, seufzte Kim.
+Fridolin schaute sie strahlend an: „Aber na klar, das sind Tante Gerdas berühmte, mit Honig karamellisierte Karröttchen.“ Kim setzte sich und sah Fridolin entgegen, der zum Tisch gewatschelt kam. Sie nahm ihm die Schalen ab und stellte sie auf den Tisch. „Wie hast du überhaupt den Herd anbekommen?“ Fridolin sah sie verständnislos an: „Ich bin ein Drache.“
+„Ja, aber ich dachte, Drachen entwickeln ihre Feuerzunge erst mit… ähm“, räusperte sie sich, „tja… nun ja, mit Geschlechtsreife…“ Fridolin, der inzwischen auf den Tisch gesprungen war und mit erstaunlicher Feinmotorik den Haferschleim in sich hineinschaufelte, sagte schmatzend zwischen zwei Löffeln: „Na ja, das ist ein Gerücht, das die älteren Drachen streuen, um ihre Überlegenheit gegenüber uns Jüngeren auszubauen. In Wirklichkeit bekommen die meisten Drachen ab einem Alter von etwa hundert Jahren ihre Feuerzunge.“ Genüsslich schmatzend saugte er an der letzten, leicht glasigen Karotte.
+Kim wandte sich ihrer Schale zu: Karotten auf dem Haferschleim. Sie schüttelte den Kopf, nahm aber einen Löffel voll, in der Erwartung eines Essens, das sie sich würde reinquälen müssen. Sie führte den Löffel zur Nase, schnupperte und schob ihn sich dann in den Mund. Kauend stutzte sie. So etwas Gutes hatte sie schon lange nicht mehr gegessen. Nun schaufelte sie, wie es auch Fridolin getan hatte, das Essen in sich hinein. Als sie aufgegessen hatte, schob sie die blank geputzte Schale von sich und warf einen Blick zu Fridolin, der zufrieden seinen frisch geflickten Teddy an sich drückte. „Und jetzt?“, fragte sie.
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
@@ -206,8 +215,19 @@ typ: ruhe
 kapitel: 2
 
 [text]
-Platzhalter. Hier steht der Text für Station 10.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+Fridolin sah sie mit großen Augen an, in denen Kim eine Spur Verwirrung zu erkennen glaubte. Er wiederholte ihre Frage: „Wie, und jetzt?“ Kims Miene verdüsterte sich trotz des niedlichen Anblicks, den Fridolin bot, wie er da auf dem Tisch saß und seinen Teddy an sich drückte. „Jeetzt“, sagte sie gedehnt, „hältst du dich an die Abmachung, lässt meine Kate hinter dir und gehst sonst wohin!“ Fridolins Augen schimmerten feucht und rund wie zwei schwarze Löcher, die alles Licht einzusaugen schienen.
+„Aber die anderen Drachen?! Ich kann doch nicht einfach wieder zurück! Hast du vielleicht eine Karte, damit ich weiß, wie ich zu Onkel Theo komme?“
+Kims Neugierde war ein bisschen geweckt. „Nun aber mal langsam“, sagte sie. „Du platzt hier rein, ich finde dich mit einem kaputten Teddy, und du faselst die ganze Zeit von anderen Drachen. Soweit ich weiß, hat sich seit Jahren kein Drache mehr sehen lassen, nicht seit…“ Ihr Blick schweifte ab in eine Ferne, die nur sie sehen konnte.
+„Ja genau!“, bekräftigte Fridolin. „Aber ich bin gar nicht weggelaufen, wie ich vorhin gesagt habe. Die anderen Drachen haben mich aus dem Versteck rausgeschmissen, weil sie sagen, ich bin zu viel! Ich habe immer Angst, und dann habe ich nur Teddy, der mir hilft, mich zu beruhigen… Die anderen Drachen haben sich beschwert, dass ich immer nur Angst habe und so viel rede… und meine Emotionen sind so groß… ich weiß nicht, wohin mit ihnen… und manchmal habe ich sogar Angst vor Teddy, obwohl er mir ja nichts Böses will… und überhaupt… das ist doch unfair… nur weil sie größer sind, brauchen sie sich nicht über mich zu stellen… und ich will doch nur mein kleines Leben in Ruhe leben… ich will Karröttchen anpflanzen, ich will mit Teddy kuscheln und ja, ich will kochen!“ Fridolins weinerliche Stimme wurde von einem kleinen Winseln zu einem Quäken. „Jedenfalls bin ich seitdem zu Onkel Theo unterwegs. Du musst wissen, er ist schon 2999 Jahre alt und feiert bald seinen 3000. Geburtstag. Ich habe beschlossen, ihn zu seinem Geburtstag zu besuchen.“ Fast flüsternd fügte er hinzu: „Vielleicht will er mich ja!“
+Kim sah Fridolin an. Etwas regte sich in ihr, das sie seit langem nicht mehr gefühlt hatte. „Ich hole die Karte, und dann schauen wir mal drauf“, sagte sie etwas milder. Als sie Fridolin die Karte gab und er sie auffaltete, erst nach links und nach rechts drehte, dann den Kopf schief legte und sie schließlich von der Rückseite betrachtete, wurde ihr alles klar.
+„Du hast überhaupt keine Ahnung, wie man liest, oder?“
+„Neee, leider nein“, murmelte Fridolin in sich hinein.
+„Woher weißt du dann, wo dein Onkel Theo wohnt?“
+„Na, als die anderen Drachen immer über ihn gelacht haben, haben sie in Richtung der aufgehenden Sonne gezeigt.“
+Kim nahm ihm die Karte ab, legte sie auf den Tisch und zeigte auf die östliche Küste. „Lebt er vielleicht am Meer?“, fragte sie.
+Fridolin überlegte: „Ich habe mal gehört, dass er wie ich zu den vegetarischen Drachen gehört und Algen liebt. Es könnte sein…“
+Kim merkte, wie das alte Fernweh in ihr aufkam. Das Meer! Wie lange hatte sie sich schon nicht mehr die salzige Brise durch die Haare wehen lassen! Bei dem Gedanken, ihre Kate zu verlassen, schlug ihr Herz schneller, doch das Fernweh war stärker. Und überhaupt, es waren ja noch zwei Monde bis zum Jahrestag, und die konnte sie genauso gut damit verbringen, zusammen mit Fridolin seinen Onkel zu suchen.
+„Na gut, lass mich ein paar Sachen zusammenpacken. Ich helfe dir, Onkel Theo zu finden.“
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
@@ -217,11 +237,13 @@ typ: kleine
 kapitel: 2
 
 [text]
-Platzhalter. Hier steht der Text für Station 11.
-Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+„das Reibt aber“ nörgelte Fridolin. Kim seufzte: „Jeder trägt seine eigenen Sachen und du hast ja darauf bestanden 2 dutzend Karotten mitzunehmen!“ Sie waren nun mehr seit einem halben Tag unterwegs und schon war Kim kurz davor Fridolin samt und sonders stehen zu lassen mit seinem Bündel welches er über der Schulter trug stehen zu lassen. Seit sie die Lichtung verlassen hatten und Richtung aufgehende Sonne aufgebrochen waren, hatte der kleine Kerl einen Konstanten fluss an babbeligen Geschichten von sich gegeben. „… und weißt du, man erzählt sich ja so einiges über Onkel Theo… „ kam es nun von hinter ihr. „ja und das wäre…?“ fragte Kim gelangweilt. „Er was schon alt als wir noch draußen waren, weißt du, alle hielten ihn für sonderbar weil er vegetatisch ist und alle haben ihn immer ausgelacht weil er sich die tollsten Geschichten ausgedachte hat. Ach und sein Karottenkuchen den solltest du mal probieren!“ Fridolin schmatzte genüsslich und sekunden später hörte Kim das schnurpsen einer Karotte hinter sich… „nom nom so schlecker lecker..“ hörte sie Fridolin zwei Bissen hervor schmatzen. 
+Auf einmal hört sie wie es im Busch neben Ihnen raschelte und als sie sich zu Fridolin umdrehte sah sie gerade noch wie Fridolin mit einer Schlinge um den Knöchel ins Unterholz gezogen wurde, die angebissene Karotte noch in der Hand. „KIIIIIIIIIIIMMM!!! Hiiiiiiiiilf miiiir!“ Und dann war Ruhe.
+Genervt drehte sich Kim vollends zu dem Gebüsch um. Das hatte sie ja ganz vergessen, ihre Fallen die sie rund um ihr Tal auf sämtlichen Wegen in einer innerhalb eines Tagesmarsches gelegt hatte. Sie musste mit ihrer Schrittlänge genau über die Schlinge hinweg getreten sein, während Fridolin mit seinen kleinen Beinen voll reingetreten war. Sie schob das bunte Laub an dem Busch zur Seite und schmunzelte bei dem Anblick der sich ihr bot. Fridolin baumelte kopfüber, an einem Bein hängend zwischen den Ästen eines Baumes und hielt krampfhaft seine Karotten fest. „Nicht fressen, Hilfe, bitte nicht fressen, ich schmecke vorzüglich aber bitte nicht fressen, Hilfe, nicht fressen“ wimmerte er vor sich hin während er sich langsam im Kreis drehte. 
+Kim trat einen schritt nach vorne und Fridolin quietschte erschrocken auf: „AAAAHH.. ach du bist es Kim.“ Sie sah sich um und sah das Seil das da an den Baum geknotet war, sie wollte es ungerne durchschneiden, weil das bedeuten würde das sie ein neues drehen würde müssen, also machte sie sich daran den knoten zu lösen. 
 
 [aufgabe]
-Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+Kim versuchte den Knoten zu lösen. 
 
 [antwort]
 1234
@@ -234,10 +256,10 @@ Hinweis 2, deutlicher.
 Hinweis 3, fast die Lösung.
 
 [geloest]
-Platzhalter. Kim erkennt, was die Lösung bedeutet.
+Fridolin plumpste zu Boden und begann sofort zu schimpfen „ich hasse fallen, wer auch immer diese Falle gestellt hat, soll zu Waiwais letzten Drachenfurz fahren, wie kann man bloß…“ Er strekte sich ächzend und und zog eine Drachenschuppe unter seinem Hintern hervor: „auch das noch.. abgebrochen..“ sagte er und schmiss die Schuppe schimpfend auf den Boden. Nach einer Weile hatte er sich wieder beruhigt, eine weitere Karotte gefressen und er ware wieder zurück auf den Weg gekehrt. Kim hob die Drachenschuppe auf. Sie hielt es für klüger Fridolin zu verschweigen das es ihre Falle gewesen war die sie zu ihrem eigenen Schutz und gegen Fremde von außen platziert hatte. Nun liefen sie weiter Richtung aufgehender Sonne.
 
 [belohnung]
-Platzhalter. Du erhältst jetzt eine Schuppe.
+Kim hob die liegengebliebene Schuppe auf und steckte sie ein, bevor sie Fridolin folgte. 
 
 [weiter]
 Platzhalter. Hinweis auf den nächsten Ort.
