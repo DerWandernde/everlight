@@ -1,0 +1,482 @@
+// EVERLIGHT, Geschichte und Rätsel
+//
+// Regeln:
+// - Zeilen mit // am Anfang sind Kommentare und werden ignoriert.
+// - Eine Station beginnt mit ## STA-01. Der Titel steht nach einem senkrechten Strich oder in der Zeile titel:.
+// - Direkt unter der Überschrift stehen Eigenschaften, jeweils als schluessel: wert.
+//     typ: ruhe, kleine oder volle
+//     kapitel: 1, 2 oder 3
+//     bild: images/dateiname.jpg  (optional)
+//     audio: audio/dateiname.m4a  (optional)
+//     code: schuppen              (nur bei der Station mit dem Schuppen-Code)
+// - Danach folgen Abschnitte in eckigen Klammern. Jede Zeile unter einem Abschnitt ist ein Absatz.
+//     [text]           Geschichte
+//     [aufgabe]        Anweisung zur Aufgabe. Ohne [antwort] erscheint der Knopf Erledigt (Nähen, Zeichnen).
+//     [antwort]        Richtige Lösungen, eine pro Zeile. Groß- und Kleinschreibung, Leerzeichen und Bindestriche zählen nicht.
+//     [hinweis]        Hinweise der Reihe nach, getrennt durch eine Zeile mit ---
+//     [geloest]        Text nach richtiger Lösung (optional)
+//     [belohnung]      Text bei kleinen Stationen nach der Lösung (optional)
+//     [code-text]      Text vor der Schuppen-Code-Eingabe (nur mit code: schuppen)
+//     [code-geloest]   Text nach richtigem Schuppen-Code
+//     [entscheidung]   Zeilen zustand:, frage:, ja:, nein:
+//     [zusatz]         Zeilen frage: und info: (optional, erscheint im Bestätigungsfenster)
+//     [ja] / [nein]    Text nach der Entscheidung
+//     [danach]         Text für alle nach der Entscheidung (optional)
+//     [weiter]         Hinweis auf den nächsten Schritt (optional)
+//     [ende-1] bis [ende-5]   Nur im Epilog: Text je nach Ende
+// - Die Reihenfolge der Abschnitte innerhalb einer Station ist beliebig. Der Ablauf ist fest:
+//   Text, Aufgabe, Schuppen-Code, Entscheidung, Ergebnis.
+
+## START | Everlight
+[text]
+Willkommen. Hier steht der Einleitungstext zum Spielstart.
+Hinweis zum Spielablauf: Die Geschichte geht über mehrere Stationen. Du scannst jeweils einen Tag mit deinem Telefon.
+[symbol]
+Dieses Symbol markiert eine endgültige Entscheidung. Danach gibt es kein Zurück.
+
+
+## STA-01 | Unbekannte Zeichen
+typ: ruhe
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 1.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-02 | Titel folgt
+typ: ruhe
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 2.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-03 | Titel folgt
+typ: ruhe
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 3.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-04 | Titel folgt
+typ: kleine
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 4.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[belohnung]
+Platzhalter. Du erhältst jetzt eine Schuppe.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-05 | Titel folgt
+typ: volle
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 5.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[entscheidung]
+zustand: ZUS-01
+frage: Soll Kim die Spuren genauer untersuchen?
+ja: Ja
+nein: Nein
+
+[ja]
+Platzhalter. Text nach der Entscheidung Ja.
+
+[nein]
+Platzhalter. Text nach der Entscheidung Nein.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-06 | Titel folgt
+typ: ruhe
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 6.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-07 | Titel folgt
+typ: kleine
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 7.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[belohnung]
+Platzhalter. Du erhältst jetzt eine Schuppe.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-08 | Titel folgt
+typ: volle
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 8.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Handarbeit oder Zeichenaufgabe.
+
+[entscheidung]
+zustand: ZUS-02
+frage: Soll Kim die Fassung bewahren?
+ja: Ja
+nein: Nein
+
+[ja]
+Platzhalter. Text nach der Entscheidung Ja.
+
+[nein]
+Platzhalter. Text nach der Entscheidung Nein.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-09 | Titel folgt
+typ: ruhe
+kapitel: 1
+
+[text]
+Platzhalter. Hier steht der Text für Station 9.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-10 | Titel folgt
+typ: ruhe
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 10.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-11 | Titel folgt
+typ: kleine
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 11.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[belohnung]
+Platzhalter. Du erhältst jetzt eine Schuppe.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-12 | Titel folgt
+typ: volle
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 12.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Handarbeit oder Zeichenaufgabe.
+
+[entscheidung]
+zustand: ZUS-03
+frage: Soll die Skizze dem Händler gezeigt werden?
+ja: Ja
+nein: Nein
+
+[zusatz]
+frage: Den Händler vorher etwas fragen
+info: Platzhalter für die Zusatzinformation.
+
+[ja]
+Platzhalter. Text nach der Entscheidung Ja.
+
+[nein]
+Platzhalter. Text nach der Entscheidung Nein.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-13 | Titel folgt
+typ: ruhe
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 13.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-14 | Titel folgt
+typ: kleine
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 14.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[belohnung]
+Platzhalter. Du erhältst jetzt eine Schuppe.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-15 | Titel folgt
+typ: volle
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 15.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für das Aussagenrätsel (RAE-04).
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1.
+---
+Hinweis 2.
+---
+Hinweis 3.
+
+[entscheidung]
+zustand: ZUS-04
+frage: Soll Kim der Nebenfigur vertrauen?
+ja: Ja
+nein: Nein
+
+[ja]
+Platzhalter. Text nach der Entscheidung Ja.
+
+[nein]
+Platzhalter. Text nach der Entscheidung Nein.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-16 | Titel folgt
+typ: ruhe
+kapitel: 2
+
+[text]
+Platzhalter. Hier steht der Text für Station 16.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-17 | Titel folgt
+typ: ruhe
+kapitel: 3
+
+[text]
+Platzhalter. Hier steht der Text für Station 17.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-18 | Titel folgt
+typ: kleine
+kapitel: 3
+
+[text]
+Platzhalter. Hier steht der Text für Station 18.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für die Aufgabe. Löse sie und gib die Lösung ein.
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1, ein sanfter Anstoß.
+---
+Hinweis 2, deutlicher.
+---
+Hinweis 3, fast die Lösung.
+
+[geloest]
+Platzhalter. Kim erkennt, was die Lösung bedeutet.
+
+[belohnung]
+Platzhalter. Du erhältst jetzt eine Schuppe.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-19 | Titel folgt
+typ: volle
+kapitel: 3
+code: schuppen
+
+[text]
+Platzhalter. Hier steht der Text für Station 19.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[aufgabe]
+Platzhalter für das finale Rätsel (RAE-05).
+
+[antwort]
+1234
+
+[hinweis]
+Hinweis 1.
+---
+Hinweis 2.
+---
+Hinweis 3.
+
+[code-text]
+Platzhalter. Kim untersucht die Schuppen nochmal genauer. Auf den Rückseiten stehen Ziffern, die keine Ordnung ergeben.
+
+[code-geloest]
+Platzhalter. Die Schuppen fügen sich zusammen.
+
+[entscheidung]
+zustand: ZUS-05
+frage: Willst du die direkte Konfrontation wählen?
+ja: Ja
+nein: Nein
+
+[ja]
+Platzhalter. Text nach der Entscheidung Ja.
+
+[nein]
+Platzhalter. Text nach der Entscheidung Nein.
+
+[weiter]
+Platzhalter. Hinweis auf den nächsten Ort.
+
+## STA-20 | Titel folgt
+typ: ruhe
+kapitel: 3
+
+[text]
+Platzhalter. Hier steht der Text für Station 20.
+Zweiter Absatz. Jede Zeile ist ein eigener Absatz.
+
+[ende-1]
+Platzhalter. Epilog für Ende 1.
+
+[ende-2]
+Platzhalter. Epilog für Ende 2.
+
+[ende-3]
+Platzhalter. Epilog für Ende 3.
+
+[ende-4]
+Platzhalter. Epilog für Ende 4.
+
+[ende-5]
+Platzhalter. Epilog für Ende 5.
