@@ -52,7 +52,7 @@
   var S = loadState();
   function save() { lsSet(KEY_PROGRESS, JSON.stringify(S)); }
   function stOf(id) {
-    if (!S.st[id]) S.st[id] = { solved: false, hints: 0, attempts: 0, codeSolved: false, decided: false, choice: null, zusatz: false };
+    if (!S.st[id]) S.st[id] = { opened: false, solved: false, hints: 0, attempts: 0, codeSolved: false, decided: false, choice: null, zusatz: false };
     return S.st[id];
   }
 
@@ -226,6 +226,10 @@
       bild: hd.bild || '',
       audio: hd.audio || '',
       code: (hd.code || '').toLowerCase() === 'schuppen',
+      weiterZu: (function (v) {
+        var m = /^STA-?(\d{1,2})$/i.exec(v || '');
+        return m ? 'STA-' + ('0' + parseInt(m[1], 10)).slice(-2) : '';
+      })(hd['weiter-zu']),
       text: lines(sec, 'text'),
       aufgabe: lines(sec, 'aufgabe'),
       antworten: lines(sec, 'antwort'),
@@ -396,6 +400,21 @@
     var codeDone = !st.code || ss.codeSolved;
     var decisionDone = !st.entscheidung || ss.decided;
 
+    // Stationen mit Aufgabe, Code oder Entscheidung zeigen erst den Text.
+    // Ein Weiter-Knopf öffnet danach den interaktiven Teil.
+    var needInteraction = needTask || st.code || !!st.entscheidung;
+    var opened = ss.opened || ss.solved || ss.codeSolved || ss.decided;
+    var firstId = needTask ? 'blk-task' : (st.code ? 'blk-code' : 'blk-decision');
+    if (needInteraction && !opened) {
+      kids.push(h('button', {
+        class: 'btn primary wide', type: 'button', id: 'gate-btn', text: t('nextLabel'),
+        onclick: function () { ss.opened = true; save(); renderStation(id, firstId); }
+      }));
+      frame(st.kapitel ? t('chapter') + ' ' + st.kapitel : '', kids);
+      scrollTo(focusId);
+      return;
+    }
+
     if (needTask) kids.push(taskCard(st, ss));
     if (taskDone && st.code) kids.push(codeCard(st, ss));
     if (taskDone && codeDone && st.entscheidung) kids.push(decisionCard(st, ss));
@@ -414,6 +433,12 @@
       if (st.danach.length) tail.push(h('div', { class: 'story' }, [paras(st.danach)]));
       if (st.weiter.length) tail.push(h('div', { class: 'card story' }, [paras(st.weiter)]));
       tail.forEach(function (n) { kids.push(n); });
+      if (st.weiterZu && STORY.stations[st.weiterZu]) {
+        kids.push(h('button', {
+          class: 'btn primary wide', type: 'button', id: 'next-btn', text: t('nextLabel'),
+          onclick: function () { location.hash = '#' + st.weiterZu; }
+        }));
+      }
     }
 
     frame(st.kapitel ? t('chapter') + ' ' + st.kapitel : '', kids);

@@ -1,6 +1,6 @@
 # Everlight WebApp
 
-Eine statische Website. Sie braucht keinen Server und keine Datenbank. Der Fortschritt liegt im Safari-Speicher auf dem Telefon.
+Eine statische Website. Sie braucht keinen Server und keine Datenbank. Der Fortschritt liegt im Safari-Speicher auf dem Telefon von Sandra.
 
 ## Dateien
 
@@ -19,7 +19,10 @@ Lege bei Bedarf selbst die Ordner images und audio an. In story.txt verweist du 
 2. Die Regeln stehen als Kommentar am Anfang der Datei.
 3. Jede Zeile unter einem Abschnitt ist ein Absatz. Du kannst Text aus Word zeilenweise einfügen.
 4. Die Überschrift einer Station lautet zum Beispiel `## STA-05 | Titel`. Danach folgen typ, kapitel und die Abschnitte in eckigen Klammern.
-5. Speichere die Datei und lade sie neu hoch. Die WebApp lädt Änderungen beim nächsten Öffnen, sobald das Telefon Empfang hat.
+5. Stationen ohne Aufgabe, Code oder Entscheidung enden nach dem Text. Der nächste Schritt ist dann der nächste NFC-Tag.
+6. Mit `weiter-zu: STA-02` unter der Stationsüberschrift zeigt die Station am Ende einen Weiter-Knopf. Er öffnet die genannte Station ohne NFC-Tag. Nutze das für Stationen, die ohne Tag laufen.
+7. Stationen mit Aufgabe, Code oder Entscheidung zeigen zuerst den Text und einen Weiter-Knopf. Erst danach erscheint der interaktive Teil.
+8. Speichere die Datei und lade sie neu hoch. Die WebApp lädt Änderungen beim nächsten Öffnen, sobald das Telefon Empfang hat.
 
 ## Codes festlegen
 
@@ -68,5 +71,5 @@ Das iPhone liest Tags ab dem iPhone XS bei eingeschaltetem, entsperrtem Display.
 ## Notfälle
 
 - Fortschritt verloren: Im Admin-Fenster Zustände und Station von Hand setzen.
-- Spieler kommt nicht weiter: Hinweise in der Aufgabe, danach du als Nebenfigur.
+- Sandra kommt nicht weiter: Hinweise in der Aufgabe, danach du als Nebenfigur.
 - Seite lädt nicht: Das Notizbuch enthält Tags und Texte als Ersatz.

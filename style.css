@@ -123,6 +123,7 @@ p { margin: 0 0 1em; }
 .btn:disabled { opacity: 0.45; cursor: default; }
 
 .btn.wide { width: 100%; }
+.story + .btn.wide, .card + .btn.wide { margin-top: 8px; }
 
 .row { display: flex; gap: 12px; flex-wrap: wrap; }
 .row > .btn { flex: 1 1 8rem; }
