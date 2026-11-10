@@ -1,6 +1,6 @@
 # Everlight WebApp
 
-Eine statische Website. Sie braucht keinen Server und keine Datenbank. Der Fortschritt liegt im Safari-Speicher auf dem Telefon von Sandra.
+Eine statische Website. Sie braucht keinen Server und keine Datenbank. Der Fortschritt liegt im Safari-Speicher auf dem Telefon.
 
 ## Dateien
 
@@ -68,5 +68,5 @@ Das iPhone liest Tags ab dem iPhone XS bei eingeschaltetem, entsperrtem Display.
 ## Notfälle
 
 - Fortschritt verloren: Im Admin-Fenster Zustände und Station von Hand setzen.
-- Sandra kommt nicht weiter: Hinweise in der Aufgabe, danach du als Nebenfigur.
+- Spieler kommt nicht weiter: Hinweise in der Aufgabe, danach du als Nebenfigur.
 - Seite lädt nicht: Das Notizbuch enthält Tags und Texte als Ersatz.
