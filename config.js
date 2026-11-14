@@ -17,7 +17,7 @@ window.EVERLIGHT_CONFIG = {
   // Notfallcode für dich. Öffnet das Admin-Fenster.
   // Öffnen: Tippe siebenmal schnell auf das Wort Everlight oben links.
   // ÄNDERN vor dem Einsatz.
-  adminCode: '4711',
+  adminCode: '1711',
 
   // Code der fünf Schuppen, gelesen in der Reihenfolge R, U, 3, D, I (Rückseiten).
   // Das ist ein Beispiel. ERSETZEN durch deinen echten Code.
