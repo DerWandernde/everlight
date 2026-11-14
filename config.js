@@ -12,12 +12,12 @@
 window.EVERLIGHT_CONFIG = {
 
   // Erhöhe die Zahl bei jeder Veröffentlichung. Sie dient nur der Übersicht.
-  version: '1',
+  version: '2',
 
   // Notfallcode für dich. Öffnet das Admin-Fenster.
   // Öffnen: Tippe siebenmal schnell auf das Wort Everlight oben links.
   // ÄNDERN vor dem Einsatz.
-  adminCode: '1711',
+  adminCode: '4711',
 
   // Code der fünf Schuppen, gelesen in der Reihenfolge R, U, 3, D, I (Rückseiten).
   // Das ist ein Beispiel. ERSETZEN durch deinen echten Code.
@@ -42,44 +42,22 @@ window.EVERLIGHT_CONFIG = {
   ],
 
   /*
-    Zuordnung der fünf Zustände zu den fünf Enden. VORLÄUFIGER VORSCHLAG.
-    Schlüssel: Zustände ZUS-01 bis ZUS-05 in dieser Reihenfolge, 1 = Ja, 0 = Nein.
-    Beispiel: '10110' heißt ZUS-01 Ja, ZUS-02 Nein, ZUS-03 Ja, ZUS-04 Ja, ZUS-05 Nein.
-    Die Verteilung ist noch nicht abgestimmt und wird mit dir festgelegt.
+    Zuordnung der Enden. Die Funktion erhält die fünf Entscheidungen ZUS-01 bis ZUS-05 als Liste von true (Ja) und false (Nein).
+    T ist die Anzahl der Ja bei ZUS-01 bis ZUS-04. K ist die Entscheidung bei ZUS-05.
+      T = 0                    END-03
+      T = 1                    END-04
+      K Ja und T 3 bis 4       END-01
+      K Ja und T = 2           END-05
+      K Nein und T 2 bis 4     END-02
+    Die Regel deckt alle 32 Kombinationen ab.
   */
-  endings: {
-    '11111': 'END-01',
-    '11110': 'END-02',
-    '11101': 'END-05',
-    '11100': 'END-02',
-    '11011': 'END-04',
-    '11010': 'END-04',
-    '11001': 'END-04',
-    '11000': 'END-04',
-    '10111': 'END-02',
-    '10110': 'END-02',
-    '10101': 'END-02',
-    '10100': 'END-02',
-    '10011': 'END-04',
-    '10010': 'END-04',
-    '10001': 'END-03',
-    '10000': 'END-03',
-    '01111': 'END-05',
-    '01110': 'END-02',
-    '01101': 'END-05',
-    '01100': 'END-02',
-    '01011': 'END-04',
-    '01010': 'END-04',
-    '01001': 'END-04',
-    '01000': 'END-04',
-    '00111': 'END-02',
-    '00110': 'END-02',
-    '00101': 'END-02',
-    '00100': 'END-02',
-    '00011': 'END-04',
-    '00010': 'END-04',
-    '00001': 'END-03',
-    '00000': 'END-03'
+  endingFor: function (z) {
+    var t = (z[0] ? 1 : 0) + (z[1] ? 1 : 0) + (z[2] ? 1 : 0) + (z[3] ? 1 : 0);
+    var k = !!z[4];
+    if (t === 0) return 'END-03';
+    if (t === 1) return 'END-04';
+    if (k) return t >= 3 ? 'END-01' : 'END-05';
+    return 'END-02';
   },
 
   // Oberflächentexte
@@ -96,7 +74,9 @@ window.EVERLIGHT_CONFIG = {
     taskDone: 'Erledigt',
     hint: 'Hinweis anzeigen',
     hintLabel: 'Hinweis',
-    rewardDefault: 'Das Rätsel ist gelöst. Du erhältst jetzt das Stück für Kim und Fridolin.',
+    taskDoneNote: 'Erledigt.',
+    // Leer lassen, wenn kleine Stationen nach der Lösung keinen eigenen Text zeigen sollen.
+    rewardDefault: '',
 
     codeTitle: 'Die Schuppen',
     codePlaceholder: 'Code',
@@ -125,6 +105,7 @@ window.EVERLIGHT_CONFIG = {
     themeDark: 'Dunkel',
     sizeSmaller: 'A-',
     sizeLarger: 'A+',
-    listen: 'Anhören'
+    listen: 'Anhören',
+    audioMissing: 'Die Aufnahme ist gerade nicht verfügbar.'
   }
 };

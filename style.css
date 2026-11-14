@@ -163,6 +163,8 @@ p { margin: 0 0 1em; }
 .media { margin: 0 0 16px; }
 .media img { max-width: 100%; border-radius: 12px; display: block; }
 .media audio { width: 100%; margin-top: 8px; }
+.media.inline { margin: 14px 0; }
+.media.inline audio { margin-top: 0; }
 
 .foot {
   display: flex;

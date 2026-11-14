@@ -1,5 +1,5 @@
 /* Service Worker: Netzwerk zuerst, bei Ausfall die zuletzt geladene Kopie. */
-var CACHE = 'everlight-cache-v1';
+var CACHE = 'everlight-cache-v2';
 var CORE = ['./', 'index.html', 'style.css', 'app.js', 'config.js', 'story.txt'];
 
 self.addEventListener('install', function (event) {

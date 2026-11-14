@@ -52,7 +52,7 @@
   var S = loadState();
   function save() { lsSet(KEY_PROGRESS, JSON.stringify(S)); }
   function stOf(id) {
-    if (!S.st[id]) S.st[id] = { opened: false, solved: false, hints: 0, attempts: 0, codeSolved: false, decided: false, choice: null, zusatz: false };
+    if (!S.st[id]) S.st[id] = { opened: false, solved: false, hints: 0, attempts: 0, codeSolved: false, decided: false, choice: null, zusatz: false, endDone: false };
     return S.st[id];
   }
 
@@ -95,9 +95,50 @@
     return e;
   }
 
+  var RE_COND = /^\?(ZUS-0[1-5])([+-])\s+(.*)$/i;
+  function condOk(z, sign) {
+    var v = S.states[z];
+    if (v === undefined || v === null) return false;
+    return sign === '+' ? v === true : v === false;
+  }
+  function imageBlock(src, zoom) {
+    var img = h('img', {
+      src: src, alt: '', loading: 'lazy',
+      onerror: function (ev) {
+        var n = ev.currentTarget.closest('.media');
+        if (n && n.parentNode) n.parentNode.removeChild(n);
+      }
+    });
+    // Mit zoom öffnet ein Tipp auf das Bild die Datei in einem eigenen Fenster, dort lässt sie sich vergrößern.
+    var inner = zoom ? h('a', { href: src, target: '_blank', rel: 'noopener', 'aria-label': 'Bild vergrößern' }, [img]) : img;
+    return h('div', { class: 'media' }, [inner]);
+  }
+  function audioBlock(src) {
+    var wrap = h('div', { class: 'media inline' });
+    var a = h('audio', { controls: 'controls', preload: 'none', src: src, 'aria-label': t('listen') });
+    a.addEventListener('error', function () {
+      wrap.innerHTML = '';
+      wrap.appendChild(h('p', { class: 'note', text: t('audioMissing') }));
+    });
+    wrap.appendChild(a);
+    return wrap;
+  }
+  // Absatzliste in Elemente umwandeln. Zeilen mit ?ZUS-0x+ oder ?ZUS-0x- erscheinen nur bei passender Entscheidung.
+  // Zeilen mit @audio pfad und @bild pfad binden Audio und Bild ein.
   function paras(list, cls) {
     var f = document.createDocumentFragment();
-    (list || []).forEach(function (p) { f.appendChild(h('p', { class: cls || null, text: p })); });
+    (list || []).forEach(function (p) {
+      var line = String(p), m = RE_COND.exec(line);
+      if (m) {
+        if (!condOk(m[1].toUpperCase(), m[2])) return;
+        line = m[3];
+      }
+      var am = /^@audio\s+(\S+)$/i.exec(line);
+      if (am) { f.appendChild(audioBlock(am[1])); return; }
+      var bm = /^@bild\s+(\S+)$/i.exec(line);
+      if (bm) { f.appendChild(imageBlock(bm[1], true)); return; }
+      f.appendChild(h('p', { class: cls || null, text: line }));
+    });
     return f;
   }
 
@@ -127,7 +168,7 @@
   /* ---------- Geschichte laden und lesen ---------- */
 
   var SECTIONS = {};
-  ['text', 'aufgabe', 'antwort', 'hinweis', 'geloest', 'code-text', 'code-geloest', 'entscheidung', 'zusatz',
+  ['text', 'aufgabe', 'aufgabe-ende', 'antwort', 'hinweis', 'geloest', 'code-text', 'code-geloest', 'entscheidung', 'zusatz',
     'ja', 'nein', 'danach', 'weiter', 'belohnung', 'symbol', 'ende-1', 'ende-2', 'ende-3', 'ende-4', 'ende-5']
     .forEach(function (n) { SECTIONS[n] = true; });
 
@@ -232,6 +273,7 @@
       })(hd['weiter-zu']),
       text: lines(sec, 'text'),
       aufgabe: lines(sec, 'aufgabe'),
+      aufgabeEnde: lines(sec, 'aufgabe-ende'),
       antworten: lines(sec, 'antwort'),
       hinweise: splitHints(sec.hinweis),
       geloest: lines(sec, 'geloest'),
@@ -276,6 +318,13 @@
     return k;
   }
   function computeEnding() {
+    var z = [];
+    for (var i = 1; i <= 5; i++) {
+      var v = S.states['ZUS-0' + i];
+      if (v === undefined || v === null) return null;
+      z.push(!!v);
+    }
+    if (typeof CFG.endingFor === 'function') return CFG.endingFor(z) || null;
     var k = stateKey();
     return k ? (CFG.endings && CFG.endings[k]) || null : null;
   }
@@ -379,17 +428,13 @@
     var kids = [];
     if (st.title) kids.push(h('h1', { text: st.title }));
 
-    if (st.bild) {
-      kids.push(h('div', { class: 'media' }, [h('img', { src: st.bild, alt: '', loading: 'lazy' })]));
-    }
-    if (st.audio) {
-      kids.push(h('div', { class: 'media' }, [h('audio', { controls: 'controls', preload: 'none', src: st.audio, 'aria-label': t('listen') })]));
-    }
+    if (st.bild) kids.push(imageBlock(st.bild));
+    if (st.audio) kids.push(audioBlock(st.audio));
 
     var mainText = st.text;
     if (st.id === STORY.order[STORY.order.length - 1] || st.ende[1].length || st.ende[2].length) {
       var endNum = null;
-      var e = S.ending || computeEnding();
+      var e = computeEnding() || S.ending;
       if (e) endNum = parseInt(String(e).replace(/\D/g, ''), 10);
       if (endNum && st.ende[endNum] && st.ende[endNum].length) mainText = st.text.concat(st.ende[endNum]);
     }
@@ -399,11 +444,13 @@
     var taskDone = !needTask || ss.solved;
     var codeDone = !st.code || ss.codeSolved;
     var decisionDone = !st.entscheidung || ss.decided;
+    var needEnd = st.aufgabeEnde.length > 0;
+    var endDone = !needEnd || ss.endDone;
 
     // Stationen mit Aufgabe, Code oder Entscheidung zeigen erst den Text.
     // Ein Weiter-Knopf öffnet danach den interaktiven Teil.
     var needInteraction = needTask || st.code || !!st.entscheidung;
-    var opened = ss.opened || ss.solved || ss.codeSolved || ss.decided;
+    var opened = ss.opened || ss.solved || ss.codeSolved || ss.decided || ss.endDone;
     var firstId = needTask ? 'blk-task' : (st.code ? 'blk-code' : 'blk-decision');
     if (needInteraction && !opened) {
       kids.push(h('button', {
@@ -419,14 +466,26 @@
     if (taskDone && st.code) kids.push(codeCard(st, ss));
     if (taskDone && codeDone && st.entscheidung) kids.push(decisionCard(st, ss));
 
-    var complete = taskDone && codeDone && decisionDone;
+    // Eine Aufgabe am Ende ([aufgabe-ende]) folgt erst nach der Entscheidung und dem Ergebnistext.
+    var outcomeShown = false;
+    if (needEnd && taskDone && codeDone && decisionDone) {
+      if (st.entscheidung && ss.decided) {
+        var outcome0 = ss.choice === 'ja' ? st.ja : st.nein;
+        if (outcome0.length) kids.push(h('div', { class: 'story', id: 'blk-outcome' }, [paras(outcome0)]));
+        outcomeShown = true;
+      }
+      kids.push(endTaskCard(st, ss));
+    }
+
+    var complete = taskDone && codeDone && decisionDone && endDone;
     if (complete) {
       if (!S.done[id]) { S.done[id] = true; save(); }
       var tail = [];
       if (st.typ === 'kleine' && st.antworten.length) {
-        tail.push(h('div', { class: 'card story', id: 'blk-reward' }, [paras(st.belohnung.length ? st.belohnung : [t('rewardDefault')])]));
+        var rewardLines = st.belohnung.length ? st.belohnung : (t('rewardDefault') ? [t('rewardDefault')] : []);
+        if (rewardLines.length) tail.push(h('div', { class: 'card story', id: 'blk-reward' }, [paras(rewardLines)]));
       }
-      if (st.entscheidung && ss.decided) {
+      if (st.entscheidung && ss.decided && !outcomeShown) {
         var outcome = ss.choice === 'ja' ? st.ja : st.nein;
         if (outcome.length) tail.push(h('div', { class: 'story', id: 'blk-outcome' }, [paras(outcome)]));
       }
@@ -452,7 +511,7 @@
     card.appendChild(paras(st.aufgabe));
 
     if (ss.solved) {
-      card.appendChild(h('p', { class: 'ok', text: t('solved') }));
+      card.appendChild(h('p', { class: 'ok', text: st.antworten.length ? t('solved') : (t('taskDoneNote') || t('solved')) }));
       if (st.geloest.length) card.appendChild(h('div', { class: 'story' }, [paras(st.geloest)]));
       return card;
     }
@@ -485,6 +544,21 @@
     card.appendChild(form);
 
     if (st.hinweise.length) card.appendChild(hintArea(st, ss));
+    return card;
+  }
+
+  function endTaskCard(st, ss) {
+    var card = h('section', { class: 'card', id: 'blk-endtask' });
+    card.appendChild(h('h2', { text: t('taskTitle') }));
+    card.appendChild(paras(st.aufgabeEnde));
+    if (ss.endDone) {
+      card.appendChild(h('p', { class: 'ok', text: t('taskDoneNote') || t('solved') }));
+      return card;
+    }
+    card.appendChild(h('button', {
+      class: 'btn primary wide', type: 'button', text: t('taskDone'),
+      onclick: function () { ss.endDone = true; save(); renderStation(st.id, 'blk-endtask'); }
+    }));
     return card;
   }
 
@@ -756,6 +830,14 @@
         } }),
         h('button', { class: 'btn', type: 'button', text: 'Station zurücksetzen', onclick: function () {
           delete S.st[sel.value]; delete S.done[sel.value]; save(); closeModal(); route();
+        } })
+      ]),
+      h('div', { class: 'row' }, [
+        h('button', { class: 'btn', type: 'button', text: 'Aufgabe als gelöst markieren', onclick: function () {
+          var x = stOf(sel.value); var ix = STORY.order.indexOf(sel.value); STORY.order.forEach(function (id, i) { if (i < ix) S.done[id] = true; }); x.opened = true; x.solved = true; if (STORY.stations[sel.value].aufgabeEnde.length) x.endDone = true; save(); closeModal(); location.hash = '#' + sel.value; route();
+        } }),
+        h('button', { class: 'btn', type: 'button', text: 'Code als gelöst markieren', onclick: function () {
+          var x = stOf(sel.value); var ix = STORY.order.indexOf(sel.value); STORY.order.forEach(function (id, i) { if (i < ix) S.done[id] = true; }); x.opened = true; x.solved = true; x.codeSolved = true; if (STORY.stations[sel.value].aufgabeEnde.length) x.endDone = true; save(); closeModal(); location.hash = '#' + sel.value; route();
         } })
       ])
     ]));

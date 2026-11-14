@@ -11,7 +11,10 @@ Eine statische Website. Sie braucht keinen Server und keine Datenbank. Der Forts
 - story.txt: alle Texte, Aufgaben, Lösungen und Hinweise
 - sw.js: Zwischenspeicher für den Betrieb bei schlechtem Empfang
 
-Lege bei Bedarf selbst die Ordner images und audio an. In story.txt verweist du mit bild: und audio: darauf.
+- images: ein Bild je Station (STA-01.jpg bis STA-20.jpg), fünf Bilder für die Enden (END-01.jpg bis END-05.jpg) und sudoku.png
+- audio: eine Datei je Textblock, benannt wie in der Aufnahmeliste (zum Beispiel STA-01_01.m4a, END-03_01.m4a)
+
+Fehlt eine Bild- oder Audiodatei, zeigt die WebApp kein Bild und einen Hinweis statt des Players. Die Geschichte läuft trotzdem weiter.
 
 ## Geschichte bearbeiten
 
@@ -22,16 +25,24 @@ Lege bei Bedarf selbst die Ordner images und audio an. In story.txt verweist du 
 5. Stationen ohne Aufgabe, Code oder Entscheidung enden nach dem Text. Der nächste Schritt ist dann der nächste NFC-Tag.
 6. Mit `weiter-zu: STA-02` unter der Stationsüberschrift zeigt die Station am Ende einen Weiter-Knopf. Er öffnet die genannte Station ohne NFC-Tag. Der Text unter `[weiter]` ist dann die Beschriftung des Knopfes, zum Beispiel „Ich bin bereit und schleiche los!“. Ohne `[weiter]` heißt der Knopf Weiter.
 7. Stationen mit Aufgabe, Code oder Entscheidung zeigen zuerst den Text und einen Weiter-Knopf. Erst danach erscheint der interaktive Teil.
-8. Speichere die Datei und lade sie neu hoch. Die WebApp lädt Änderungen beim nächsten Öffnen, sobald das Telefon Empfang hat.
+8. Besondere Zeilen innerhalb eines Abschnitts:
+   - `@audio audio/STA-01_01.m4a` setzt einen Audio-Player an diese Stelle.
+   - `@bild images/END-01.jpg` setzt ein Bild an diese Stelle.
+   - `?ZUS-01+ Text` zeigt die Zeile nur, wenn ZUS-01 mit Ja entschieden wurde. `?ZUS-01- Text` zeigt sie nur bei Nein. Die Bedingung gilt auch vor `@audio`.
+9. `[aufgabe-ende]` ist eine Aufgabe am Ende der Station. Sie erscheint erst nach der Entscheidung und dem Ergebnistext und hat immer den Knopf Erledigt. STA-08 nutzt das für das Nähen.
+10. Die fünf Enden stehen als `[ende-1]` bis `[ende-5]` in STA-20. Welches Ende erscheint, legt `endingFor` in config.js fest.
+11. Speichere die Datei und lade sie neu hoch. Die WebApp lädt Änderungen beim nächsten Öffnen, sobald das Telefon Empfang hat.
 
 ## Codes festlegen
 
 Öffne config.js und ändere:
 
 - adminCode: dein Notfallcode
-- finalCode: der Code der Schuppen-Rückseiten, gelesen in der Reihenfolge R, U, 3, D, I
+- finalCode: der Code der Schuppen-Rückseiten, gelesen in der Reihenfolge R, U, 3, D, I (fünf Ziffern)
 
-Die Werte im Ordner sind Beispiele. Ersetze beide vor dem Einsatz.
+Die Werte im Ordner (4711 und 52847) sind Beispiele. Ersetze beide vor dem Einsatz.
+
+Die Hinweisstufen bei falschem Code (nach 3 und nach 6 Versuchen) und die Sperre (ab 9 Versuchen, 60 Sekunden) stehen ebenfalls in config.js.
 
 ## Veröffentlichen mit GitHub Pages
 
@@ -54,10 +65,20 @@ Quelle: [GitHub Docs, Veröffentlichungsquelle festlegen](https://docs.github.co
 
 Das iPhone liest Tags ab dem iPhone XS bei eingeschaltetem, entsperrtem Display. Der Link öffnet sich in Safari.
 
+## Enden
+
+T ist die Zahl der Ja-Entscheidungen bei ZUS-01 bis ZUS-04. K ist die Entscheidung bei ZUS-05.
+
+- END-03: T ist 0
+- END-04: T ist 1
+- END-01: K ist Ja und T ist 3 oder 4
+- END-05: K ist Ja und T ist 2
+- END-02: K ist Nein und T ist 2 bis 4
+
 ## Test vor dem Einsatz
 
 1. Gehe alle Stationen mit dem Admin-Fenster durch. Der Notfallcode öffnet jede Station auch außerhalb der Reihenfolge.
-2. Prüfe alle Lösungen, Hinweise und Entscheidungen.
+2. Prüfe alle Lösungen, Hinweise und Entscheidungen. Im Admin-Fenster setzt du ZUS-01 bis ZUS-05 von Hand und prüfst damit alle fünf Enden.
 3. Prüfe den Schuppen-Code mit den echten Schuppen.
 4. Lösche den Testfortschritt auf Sandras Telefon: Admin-Fenster, Alles löschen.
 5. Prüfe den Empfang an jeder Station.
