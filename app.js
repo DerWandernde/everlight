@@ -101,16 +101,38 @@
     if (v === undefined || v === null) return false;
     return sign === '+' ? v === true : v === false;
   }
+  // Bilddateien: Wenn die angegebene Endung fehlt (zum Beispiel .jpg), probiert die App .png, .jpeg und .webp.
+  function imageCandidates(src) {
+    var m = /^(.*)\.(jpe?g|png|webp)$/i.exec(src);
+    if (!m) return [src];
+    var list = [src];
+    ['.jpg', '.png', '.jpeg', '.webp', '.JPG', '.PNG', '.JPEG'].forEach(function (ext) {
+      var c = m[1] + ext;
+      if (list.indexOf(c) < 0) list.push(c);
+    });
+    return list;
+  }
   function imageBlock(src, zoom) {
+    var tries = imageCandidates(src), idx = 0, link = null;
     var img = h('img', {
-      src: src, alt: '', loading: 'lazy',
+      src: tries[0], alt: '', loading: 'lazy',
       onerror: function (ev) {
+        idx += 1;
+        if (idx < tries.length) { ev.currentTarget.setAttribute('src', tries[idx]); return; }
+        if (window.console && console.warn) console.warn('Bild nicht gefunden: ' + src);
         var n = ev.currentTarget.closest('.media');
         if (n && n.parentNode) n.parentNode.removeChild(n);
+      },
+      onload: function (ev) {
+        if (link) link.setAttribute('href', ev.currentTarget.getAttribute('src'));
       }
     });
     // Mit zoom öffnet ein Tipp auf das Bild die Datei in einem eigenen Fenster, dort lässt sie sich vergrößern.
-    var inner = zoom ? h('a', { href: src, target: '_blank', rel: 'noopener', 'aria-label': 'Bild vergrößern' }, [img]) : img;
+    var inner = img;
+    if (zoom) {
+      link = h('a', { href: tries[0], target: '_blank', rel: 'noopener', 'aria-label': 'Bild vergrößern' }, [img]);
+      inner = link;
+    }
     return h('div', { class: 'media' }, [inner]);
   }
   function audioBlock(src) {
