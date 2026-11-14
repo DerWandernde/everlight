@@ -1,5 +1,5 @@
 /* Service Worker: Netzwerk zuerst, bei Ausfall die zuletzt geladene Kopie. */
-var CACHE = 'everlight-cache-v2';
+var CACHE = 'everlight-cache-v3';
 var CORE = ['./', 'index.html', 'style.css', 'app.js', 'config.js', 'story.txt'];
 
 self.addEventListener('install', function (event) {
@@ -35,8 +35,12 @@ self.addEventListener('fetch', function (event) {
   // Audio und Video nicht über den Service Worker leiten (Range-Anfragen auf iOS).
   if (req.headers.has('range') || /\.(mp3|m4a|aac|wav|ogg|mp4|mov)$/i.test(url.pathname)) return;
 
+  // Bilder sind groß und dürfen länger laden. Nur Seite, Skripte und Text laufen mit Zeitgrenze.
+  var isImage = req.destination === 'image' || /\.(jpe?g|png|webp|gif|svg)$/i.test(url.pathname);
+  var limit = isImage ? 60000 : 4000;
+
   event.respondWith(
-    withTimeout(fetch(req), 4000).then(function (res) {
+    withTimeout(fetch(req), limit).then(function (res) {
       if (res && res.ok) {
         var copy = res.clone();
         caches.open(CACHE).then(function (c) { c.put(req, copy); });
