@@ -52,7 +52,7 @@ Dieses Symbol markiert eine endgültige Entscheidung. Danach gibt es kein Zurüc
 ## STA-01 | Unbekannte Zeichen
 typ: ruhe
 kapitel: 1
-bild: images/STA-01.jpg
+bild: images/STA-01.png
 weiter-zu: STA-02
 
 [text]
@@ -67,7 +67,7 @@ Ich bin bereit und schleiche los!
 ## STA-02 | Das Gartentor
 typ: ruhe
 kapitel: 1
-bild: images/STA-02.jpg
+bild: images/STA-02.png
 weiter-zu: STA-03
 
 [text]
@@ -80,7 +80,7 @@ Weiter zum nächsten Abschnitt
 ## STA-03 | Im Dunkel des Waldes
 typ: ruhe
 kapitel: 1
-bild: images/STA-03.jpg
+bild: images/STA-03.png
 
 [text]
 @audio audio/STA-03_01.m4a
@@ -93,7 +93,7 @@ Etwas schimmert vor dir im Dunkeln. Suche die Stelle und scanne dort den Tag.
 ## STA-04 | Etwas Glitzerndes
 typ: kleine
 kapitel: 1
-bild: images/STA-04.jpg
+bild: images/STA-04.png
 
 [text]
 @audio audio/STA-04_01.m4a
@@ -103,7 +103,7 @@ Auf einmal drängte sich das Wimmern, welches nun viel näher klang, in ihren Ko
 ## STA-05 | Die Kratzspuren
 typ: volle
 kapitel: 1
-bild: images/STA-05.jpg
+bild: images/STA-05.png
 
 [text]
 @audio audio/STA-05_01.m4a
@@ -145,7 +145,7 @@ Kim ließ die Schuppe in der Tasche. Sie war nur ein Fund im Wald. Wichtiger war
 ## STA-06 | Fridolin
 typ: ruhe
 kapitel: 1
-bild: images/STA-06.jpg
+bild: images/STA-06.png
 
 [text]
 @audio audio/STA-06_01.m4a
@@ -156,7 +156,7 @@ Mit jedem Wort war Fridolin weiter in sich zusammengesunken und erneut kullerten
 ## STA-07 | Der Bär
 typ: kleine
 kapitel: 1
-bild: images/STA-07.jpg
+bild: images/STA-07.png
 
 [text]
 @audio audio/STA-07_01.m4a
@@ -168,7 +168,7 @@ Kim ließ sich nicht beeindrucken. Zu sehr schmerzte der Verlust ihrer kostbaren
 ## STA-08 | Der Teddy
 typ: volle
 kapitel: 1
-bild: images/STA-08.jpg
+bild: images/STA-08.png
 
 [text]
 @audio audio/STA-08_01.m4a
@@ -199,7 +199,7 @@ Fridolins Teddy hat am Nacken eine aufgeplatzte Naht. Nähe sie zu. Nadel und Fa
 ## STA-09 | Haferschleim mit Karotten
 typ: ruhe
 kapitel: 1
-bild: images/STA-09.jpg
+bild: images/STA-09.png
 
 [text]
 @audio audio/STA-09_01.m4a
@@ -211,7 +211,7 @@ Kim wandte sich ihrer Schale zu: Karotten auf dem Haferschleim. Sie schüttelte 
 ## STA-10 | Onkel Theo
 typ: ruhe
 kapitel: 2
-bild: images/STA-10.jpg
+bild: images/STA-10.png
 
 [text]
 @audio audio/STA-10_01.m4a
@@ -233,7 +233,7 @@ Kim merkte, wie das alte Fernweh in ihr aufkam. Das Meer! Wie lange hatte sie si
 ## STA-11 | Die Schlinge
 typ: kleine
 kapitel: 2
-bild: images/STA-11.jpg
+bild: images/STA-11.png
 
 [text]
 @audio audio/STA-11_01.m4a
@@ -252,7 +252,7 @@ Fridolin plumpste zu Boden und begann sofort zu schimpfen: „Ich hasse Fallen! 
 ## STA-12 | Der Händler
 typ: volle
 kapitel: 2
-bild: images/STA-12.jpg
+bild: images/STA-12.png
 
 [text]
 @audio audio/STA-12_01.m4a
@@ -287,7 +287,7 @@ Kim zog die Hand weg und steckte hastig ihren Zeichenblock in ihre Tasche. „Da
 ## STA-13 | Der Hase
 typ: ruhe
 kapitel: 2
-bild: images/STA-13.jpg
+bild: images/STA-13.png
 
 [text]
 @audio audio/STA-13_01.m4a
@@ -301,7 +301,7 @@ Später, als das Feuer heruntergebrannt war, lag Fridolin zusammengerollt, den g
 ## STA-14 | Nachts am Feuer
 typ: kleine
 kapitel: 2
-bild: images/STA-14.jpg
+bild: images/STA-14.png
 
 [text]
 @audio audio/STA-14_01.m4a
@@ -315,7 +315,7 @@ Einen Moment blieb sie vor dem kleinen schlafenden Drachen stehen. „Zu viel se
 ## STA-15 | Die Brücke
 typ: volle
 kapitel: 2
-bild: images/STA-15.jpg
+bild: images/STA-15.png
 
 [text]
 @audio audio/STA-15_01.m4a
@@ -360,7 +360,7 @@ Kim atmete aus. „Dann rede.“ Der Wächter lehnte sich erneut an das Gelände
 ## STA-16 | Salz in der Luft
 typ: ruhe
 kapitel: 2
-bild: images/STA-16.jpg
+bild: images/STA-16.png
 
 [text]
 @audio audio/STA-16_01.m4a
@@ -373,7 +373,7 @@ Als Fridolin eingeschlafen war, saß Kim noch lange wach und starrte gedankenver
 ## STA-17 | Das Meer
 typ: ruhe
 kapitel: 3
-bild: images/STA-17.jpg
+bild: images/STA-17.png
 
 [text]
 @audio audio/STA-17_01.m4a
@@ -385,7 +385,7 @@ Neben seinem Fuß saß der Hase, die hängenden Ohren flatterten im Wind, und sc
 ## STA-18 | Fünf Pfade
 typ: kleine
 kapitel: 3
-bild: images/STA-18.jpg
+bild: images/STA-18.png
 
 [text]
 @audio audio/STA-18_01.m4a
@@ -421,7 +421,7 @@ Sie nahmen den zweiten Pfad. Auf halbem Weg blitzte im Sand etwas auf. Kim bück
 ## STA-19 | PHO’s Taverne
 typ: volle
 kapitel: 3
-bild: images/STA-19.jpg
+bild: images/STA-19.png
 code: schuppen
 
 [text]
@@ -488,7 +488,7 @@ Hinter der Tür war es dunkel und still. Das Rauschen des Meeres klang gedämpft
 ## STA-20 | Hinter der Tür
 typ: ruhe
 kapitel: 3
-bild: images/STA-20.jpg
+bild: images/STA-20.png
 
 [text]
 @audio audio/STA-20_01.m4a
@@ -497,7 +497,7 @@ Der Raum hinter der Tür war größer, als er von außen hätte sein dürfen. Mu
 Der Blick des alten Drachen fiel auf den Hasen, und etwas in dem riesigen Gesicht wurde weich. „Rudi“, sagte er. „Du hast sie gebracht.“ Der Hase hoppelte zu ihm und ließ sich zwischen den Krallen nieder, als wäre er nie fort gewesen. Dann sah Theodor Kim und Fridolin an, und seine Augen funkelten. „Ihr habt lange gebraucht. Ganz Darkhaven hat mir einmal zugehört. Jetzt kommen ein Hase, eine Waldelfe und ein kleiner Drache mit einem Teddy. Das ist ein gutes Publikum.“ Sein Blick wanderte zu der Tasche an Kims Gürtel, in der die Schuppen steckten. „Meine Sippe trägt den Namen auf den Schuppen. Man sieht ihn nur, wenn man ihn sucht. Setzt euch.“
 
 [ende-1]
-@bild images/END-01.jpg
+@bild images/END-01.png
 @audio audio/END-01_01.m4a
 Theodor wandte den Kopf zur Tür, hinter der das Murmeln der Drachen zu hören war. „Lasst sie herein“, rief er. Der graue Drache trat über die Schwelle, die anderen hinter ihm. Er blieb vor Fridolin stehen und senkte den großen Kopf, bis seine Augen auf der Höhe von Fridolins Augen waren. „Wir haben dich weggeschickt, weil wir uns vor unserer eigenen Angst gefürchtet haben“, sagte er. „Das war falsch.“ Fridolin sah zu Kim hoch. Kim schwieg, aber sie blieb neben ihm stehen. „Ich verzeihe euch“, sagte Fridolin schließlich, „wenn ich einen Platz am Tisch bekomme. Und eine Karotte.“ Der graue Drache lachte zum ersten Mal seit Jahren, und es klang wie ein Felsrutsch.
 @audio audio/END-01_02.m4a
@@ -505,7 +505,7 @@ Die Drachen ließen sich im Kreis nieder, der Hase kletterte auf Fridolins Scho�
 Theodor erzählte bis zum Morgengrauen, und diesmal hörte Kim bis zum Ende zu.
 
 [ende-2]
-@bild images/END-02.jpg
+@bild images/END-02.png
 @audio audio/END-02_01.m4a
 Theodor wartete, bis die Tür geschlossen war. Draußen scharrten Stühle, Stimmen murmelten, aber niemand klopfte. „Sie werden warten“, sagte er. „Sie können gut warten. Sie haben es drei Tage geübt.“ Er sah Fridolin an, der sich an Kims Bein presste, und streckte einen seiner kurzen Arme aus, gerade so weit, dass die Kralle den Boden vor Fridolin berührte. „Du kannst bleiben, kleiner Freund. So lange du willst. Das Versteck der anderen ist nicht mehr dein Zuhause, aber meines ist offen.“ Fridolin brauchte ein paar Atemzüge. Dann ließ er Kims Bein los und kletterte in die Krümmung von Theodors Schwanz, den gelben Teddy fest im Arm.
 @audio audio/END-02_02.m4a
@@ -513,21 +513,21 @@ Kim blieb an der Wand stehen. „Eine Nacht“, sagte sie. „Mehr verspreche ic
 In dieser Nacht saß sie neben der Tür, das Jagdmesser in Reichweite, die fünf Schuppen in der Tasche. Fridolin schlief, den Teddy im Arm und den Hasen im Rücken. Draußen murmelten die Drachen, und Kim lauschte, bis ihr die Augen zufielen. Fridolin war in Sicherheit. Das reichte für diese Nacht.
 
 [ende-3]
-@bild images/END-03.jpg
+@bild images/END-03.png
 @audio audio/END-03_01.m4a
 Kim sprach nur wenige Sätze. Fridolin sei jetzt bei seiner Familie, sie habe ihren Teil getan, und ihre Kate warte. Theodor hörte zu, ohne sie zu unterbrechen. „Das Haus ist groß genug für drei“, sagte er schließlich. Kim schüttelte den Kopf. Sie hätte nicht erklären können, warum. Zu viele Fragen standen in diesem Raum, und zu viele Wesen waren ihr in den letzten Tagen zu nah gekommen.
 Fridolin begriff es zuerst. Er sagte nichts, was bei ihm selten vorkam. Kim wollte ihm die Schuppen zurückgeben, aber er schob ihre Hand weg. „Behalte sie“, sagte er. „Damit du mich nicht vergisst.“ „Ich vergesse nichts“, sagte Kim, und es klang schroffer, als sie wollte. Sie drehte sich um, bevor er sehen konnte, was mit ihrem Gesicht passierte.
 Sie verließ das Haus durch die Hintertür. Draußen auf dem Dünenpfad roch der Wind nach Salz. Hinter ihr raschelte es im Gras. Kim blieb stehen, ohne sich umzudrehen. „Nur ein Hase“, murmelte sie und ging weiter. Das Rascheln folgte ihr. Nach hundert Schritten wartete sie doch. Eine kleine Gestalt mit hängenden Ohren holte auf und setzte sich neben ihren Stiefel, als wäre es das Natürlichste der Welt.
 
 [ende-4]
-@bild images/END-04.jpg
+@bild images/END-04.png
 @audio audio/END-04_01.m4a
 Theodor erzählte, was er wusste. Es war eine lange Geschichte, und sie begann in der großen Stadt, aber nach dem ersten Satz hob Kim die Hand. „Nicht“, sagte sie. „Ich will es nicht hören.“ Theodor schwieg einen Moment. „Dann bleibt es eine Geschichte ohne Ende“, sagte er. „Ich erzähle sie dir, wann immer du willst. Du weißt, wo du mich findest.“
 Fridolin blieb bei Theodor. Das war nie in Frage gekommen, nur wie es sich anfühlen würde. „Ich besuche dich, wenn die Karotten reif sind“, sagte er. „Die gehören mir“, sagte Kim. „Dann besuche ich dich und frage vorher“, sagte Fridolin. Er umarmte sie so lange, dass sie schließlich nachgab und ihm einmal kurz über den Kopf strich.
 An der Tür blieb sie stehen. Sie hatte so viele Fragen. Wer das Goldstück in die Karte gelegt hatte. Warum die Schuppen den Namen kannten. Was in jener Nacht in der Stadt wirklich geschehen war. Sie stellte keine einzige. Auf dem Weg die Düne hinauf griff sie in die Tasche. Die fünf Schuppen lagen noch dort. Sie hatte vergessen, sie zurückzugeben. Sie drehte nicht um.
 
 [ende-5]
-@bild images/END-05.jpg
+@bild images/END-05.png
 @audio audio/END-05_01.m4a
 Theodor ließ die Drachen herein, einen nach dem anderen, und zuletzt den Grauen. Der blieb vor Kim stehen, während alle anderen sich setzten. „Ich war der junge Drache in jener Nacht“, sagte er. „Die Lichter der Stadt haben mich angelockt, und dann waren da Glocken und Fackeln. Ich habe vor Angst um mich geschlagen. Dabei habe ich jemanden verletzt.“ Kims Hand wanderte zu ihrer linken Schulter, zu der Narbe unter dem Stoff. „Mich“, sagte sie. „Ja“, sagte er. „Und ich habe zugesehen, wie sie dich gejagt haben“, sagte sie. „Ja.“ Sie sahen sich an. Mehr gab es dazu nicht zu sagen.
 Theodor erzählte den Rest. „Ich habe ihn in dieser Nacht aus der Stadt getragen. Seitdem versteckten sich die Drachen, und ich habe aufgehört zu erzählen, denn wer soll zuhören, wenn niemand mehr kommt. Als dann der Kleine kam, der vor Angst zittert, haben sie ihn fortgeschickt, weil er sie an jene Nacht erinnerte. Er hat ihre Angst wieder hochgeholt. Ihr beide habt ihnen gezeigt, was daran falsch war.“ Der graue Drache ging in die Knie und sagte zu Fridolin, was Fridolin längst nicht mehr zu hoffen gewagt hatte. Dass er bleiben durfte, wo immer er wollte.
