@@ -191,7 +191,7 @@
 
   var SECTIONS = {};
   ['text', 'aufgabe', 'aufgabe-ende', 'antwort', 'hinweis', 'geloest', 'code-text', 'code-geloest', 'entscheidung', 'zusatz',
-    'ja', 'nein', 'danach', 'weiter', 'belohnung', 'symbol', 'ende-1', 'ende-2', 'ende-3', 'ende-4', 'ende-5']
+    'ja', 'nein', 'danach', 'weiter', 'belohnung', 'symbol', 'halten', 'ende-1', 'ende-2', 'ende-3', 'ende-4', 'ende-5']
     .forEach(function (n) { SECTIONS[n] = true; });
 
   function loadStory() {
@@ -275,7 +275,7 @@
   }
 
   function buildStart(b) {
-    return { text: lines(b.sections, 'text'), symbol: lines(b.sections, 'symbol'), titel: b.header.titel || '' };
+    return { text: lines(b.sections, 'text'), symbol: lines(b.sections, 'symbol'), halten: lines(b.sections, 'halten'), titel: b.header.titel || '' };
   }
 
   function buildStation(b) {
@@ -418,12 +418,17 @@
     }
     var hasProgress = STORY.order.some(function (id) { return S.done[id]; });
     var go = hasProgress ? currentId() : STORY.order[0];
+    function proceed() {
+      if (!S.started) { S.started = Date.now(); save(); }
+      location.hash = '#' + go;
+    }
     kids.push(h('button', {
       class: 'btn primary wide', type: 'button',
       text: hasProgress ? t('continueButton') : t('startButton'),
       onclick: function () {
-        if (!S.started) { S.started = Date.now(); save(); }
-        location.hash = '#' + go;
+        // Beim ersten Start lernt Sandra hier das Halten, das sie später bei Entscheidungen wieder braucht.
+        if (hasProgress || S.started) proceed();
+        else openStartHold(st.halten || [], proceed);
       }
     }));
     frame('', kids);
@@ -698,6 +703,82 @@
     document.body.style.overflow = 'hidden';
     openModal = ov;
     return box;
+  }
+
+  // Halten-Popup für den Start: derselbe Ring und dasselbe Symbol wie bei Entscheidungen.
+  function openStartHold(introLines, onDone) {
+    var ns = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('viewBox', '0 0 100 100');
+    svg.setAttribute('aria-hidden', 'true');
+    function circle(cls) {
+      var c = document.createElementNS(ns, 'circle');
+      c.setAttribute('cx', '50'); c.setAttribute('cy', '50'); c.setAttribute('r', '44');
+      c.setAttribute('fill', 'none'); c.setAttribute('stroke-width', '4');
+      c.setAttribute('class', cls);
+      return c;
+    }
+    var bg = circle('ring-bg');
+    var ring = circle('ring');
+    ring.setAttribute('stroke-dasharray', String(RING));
+    ring.setAttribute('stroke-dashoffset', String(RING));
+    ring.setAttribute('transform', 'rotate(-90 50 50)');
+    var g = document.createElementNS(ns, 'g');
+    g.setAttribute('class', 'core');
+    var use = document.createElementNS(ns, 'use');
+    use.setAttribute('href', '#rune');
+    use.setAttribute('x', '20'); use.setAttribute('y', '20'); use.setAttribute('width', '60'); use.setAttribute('height', '60');
+    g.appendChild(use);
+    svg.appendChild(bg); svg.appendChild(ring); svg.appendChild(g);
+
+    var holdText = t('startHold') || 'Halte das Symbol gedrückt, um zu beginnen.';
+    var holdBtn = h('button', { class: 'hold', type: 'button', id: 'hold', 'aria-label': holdText }, []);
+    holdBtn.appendChild(svg);
+
+    var kids = [h('h2', { text: t('startTitle') || 'Es beginnt' })];
+    introLines.forEach(function (l) { kids.push(h('p', { class: 'q', text: l })); });
+    kids.push(holdBtn);
+    kids.push(h('p', { class: 'center note', text: holdText }));
+    kids.push(h('div', { class: 'center', style: 'margin-top:12px' }, [
+      h('button', { class: 'btn', type: 'button', text: t('confirmBack'), onclick: closeModal })
+    ]));
+    modal(kids, 'confirm');
+
+    var raf = null, start = 0, holding = false, finished = false;
+    function tick() {
+      var p = Math.min(1, (performance.now() - start) / (CFG.holdMs || 2000));
+      ring.setAttribute('stroke-dashoffset', String(RING * (1 - p)));
+      if (p >= 1) { finish(); return; }
+      raf = requestAnimationFrame(tick);
+    }
+    function begin(ev) {
+      if (ev && ev.preventDefault) ev.preventDefault();
+      if (holding || finished) return;
+      holding = true; start = performance.now();
+      holdBtn.classList.add('holding');
+      raf = requestAnimationFrame(tick);
+    }
+    function cancel() {
+      if (!holding || finished) return;
+      holding = false;
+      cancelAnimationFrame(raf);
+      ring.setAttribute('stroke-dashoffset', String(RING));
+      holdBtn.classList.remove('holding');
+    }
+    function finish() {
+      finished = true;
+      cancelAnimationFrame(raf);
+      closeModal();
+      onDone();
+    }
+    holdBtn.addEventListener('pointerdown', function (ev) {
+      try { holdBtn.setPointerCapture(ev.pointerId); } catch (e) { /* ignorieren */ }
+      begin(ev);
+    });
+    ['pointerup', 'pointercancel', 'pointerleave', 'lostpointercapture'].forEach(function (n) { holdBtn.addEventListener(n, cancel); });
+    holdBtn.addEventListener('contextmenu', function (ev) { ev.preventDefault(); });
+    holdBtn.addEventListener('keydown', function (ev) { if (ev.key === ' ' || ev.key === 'Enter') begin(ev); });
+    holdBtn.addEventListener('keyup', function (ev) { if (ev.key === ' ' || ev.key === 'Enter') cancel(); });
   }
 
   function openConfirm(st, choice) {
