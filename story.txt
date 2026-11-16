@@ -42,7 +42,7 @@
 ## START | Everlight
 
 [text]
-Everlight ist eine interaktive Geschichte. Du begleitest Kim und erlebst, was an den einzelnen Orten geschieht.
+Everlight ist eine interaktive Geschichte.
 An jedem Ort scannst du den Tag, den du dort findest. Damit öffnest du die nächste Station.
 Manche Stationen stellen dir eine Aufgabe. An anderen triffst du eine Entscheidung. Es gibt keine richtigen oder falschen Entscheidungen. Jede Entscheidung verändert den weiteren Verlauf.
 Dein Fortschritt wird automatisch auf diesem Gerät gespeichert. Einen früheren Spielstand kannst du nicht laden.
@@ -52,7 +52,7 @@ Lies jeden Text in Ruhe. Du kannst ihn dir auch anhören.
 Dieses Symbol markiert eine endgültige Entscheidung. Danach gibt es kein Zurück.
 
 [halten]
-Diese Geste bestätigt später auch endgültige Entscheidungen. Halte für 2 Sekunden gedrückt.
+Diese Geste bestätigt später auch endgültige Entscheidungen.
 
 ## STA-01 | Unbekannte Zeichen
 typ: ruhe
