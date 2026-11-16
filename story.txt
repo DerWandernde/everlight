@@ -80,7 +80,7 @@ weiter-zu: STA-03
 Eine leichte Brise strich über den Garten und teilte ihre langen Haare über den spitzen Ohren, und da war es wieder, das leise Wimmern, welches sie vorher gehört hatte. Leise schlich sie weiter. Sie zuckte kurz zusammen, als sie das Gartentor hinter sich schloss und der Riegel klappernd in die vorgesehene Mulde fiel. Sie hielt inne, konnte aber kein weiteres Geräusch hören. Nun wandte sie sich dem Wald zu, der ihr trotz der Vertrautheit dunkel und gefahrvoll erschien. Auf Zehenspitzen schleichend folgte sie dem kleinen Pfad zwischen die Bäume ins Dunkel hinein.
 
 [weiter]
-Weiter zum nächsten Abschnitt
+Gehe weiter.
 
 ## STA-03 | Im Dunkel des Waldes
 typ: ruhe
@@ -93,7 +93,7 @@ Als das Dunkel der Bäume sie verschluckte, merkte Kim, wie sich ihre feinen Nac
 Und richtig, da schimmerte etwas im Dunkeln… Sie schlich darauf zu… Was war das denn?
 
 [weiter]
-Etwas schimmert vor dir im Dunkeln. Suche die Stelle und scanne dort den Tag.
+Verlasse den Bahnhof und überquere den Vorplatz. Große Steine sind auffällig.
 
 ## STA-04 | Etwas Glitzerndes
 typ: kleine
@@ -105,6 +105,9 @@ bild: images/STA-04.png
 Kim kam dem Funkeln immer näher. Als sie schließlich direkt davor stand, musste sie sich in der Dunkelheit bücken, um es zu erkennen. Sie streckte die Hand aus und berührte mit einem Finger das, was da zwischen den auf dem Boden liegenden Blättern hervorlugte. „Autsch! Scharfe Kante“, dachte sie, schloss aber trotzdem die Finger darum. Es war eine schillernde, in allen Farben des Regenbogens schimmernde Schuppe. „Wer die wohl hier verloren hat?“, dachte sie bei sich, ganz fasziniert, wie die Schuppe in dem spärlichen Licht, das in dem nächtlichen Wald noch vorhanden war, so schillern konnte.
 Auf einmal drängte sich das Wimmern, welches nun viel näher klang, in ihren Kopf, und die Schuppe war schnell vergessen. Leise schlich sie auf dem Pfad weiter.
 
+[weiter]
+Folge dem brennenden Schäfer, bis es nicht mehr gerade ausgeht.
+
 ## STA-05 | Die Kratzspuren
 typ: volle
 kapitel: 1
@@ -114,6 +117,9 @@ bild: images/STA-05.png
 @audio audio/STA-05_01.m4a
 Je weiter sie dem Pfad folgte, desto mehr zeigten ihre feinen Ohren, dass die Geräusche tatsächlich wieder von der kleinen Quelle kamen, so wie sie es vorher schon vermutet hatte. Sie ging in die Hocke und schlich entlang des kleinen ausgetretenen Pfades weiter in Richtung der Quelle. Auf einmal trat sie unbedacht auf einen Zweig, der durch den Wind auf den Pfad gefallen sein musste. Das laute Knacken, welches der Zweig unter ihrem Schuh verursachte, kam Kim wie eine Explosion in dem still daliegenden Wald vor, ihr Puls schnellte nach oben und sie hatte das Gefühl, dass ihr Herz ihr nun zwischen den Ohren pochte. Sie hielt inne, kauerte sich ganz klein zusammen, bewegte keinen Muskel und horchte in den Wald hinein.
 Als sie da auf dem Weg hockte und dem wimmernden, tiefen Stöhnen lauschte, fielen ihr auf einmal die tiefen Kratzspuren ein, die sie vor zwölf Tagen bei der Quelle entdeckt hatte. Aber nun war es zu spät, ihren Bogen und das kurze Schwert von der Wand zu nehmen. Was immer da an der Quelle auf sie wartete, ihr Messer würde ausreichen müssen. Als sich ihr Herzschlag beruhigt hatte, schlich sie weiter, immer darauf bedacht, auf die gesamte Umgebung zu achten, falls das Etwas vor ihr nicht allein war. Ihr Blick fiel zufällig auf einen abgeknickten Ast und von dort weiter auf einen Stein am Rand des Pfades. Wie ein Hammerschlag drängte sich siedend heiß eine Erinnerung in ihrem Gedächtnis nach vorne. Diese Spuren hatte sie schon einmal gesehen, sie kannte diese Kratzer, alter Schmerz wallte in ihr hoch und ließ sie keuchend zusammensacken. Was war damals geschehen? Der hämmernde Puls in ihrem Kopf, kurzes, flaches Luftholen, das war alles, was Kim zustande brachte. Sie versuchte, sich zu erinnern, warum ihr Körper so heftig auf diesen Anblick reagierte, aber sie konnte nicht. Oder doch? Diese Krallen.
+
+[weiter]
+Von 58 Richtung Rot-weiß. Die Quelle rauscht schon ganz nah. Du musst ganz nah ans Wasser um zu erkennen was da ist. Bekannter Ort.
 
 [aufgabe]
 @audio audio/STA-05_02.m4a
@@ -147,6 +153,9 @@ Kim zog die Schuppe aus der Tasche und drehte sie im Mondlicht, das schräg durc
 @audio audio/STA-05_05.m4a
 Kim ließ die Schuppe in der Tasche. Sie war nur ein Fund im Wald. Wichtiger war das Wimmern hinter der nächsten Biegung.
 
+[weiter]
+Folge dem brennenden Schäfer bis es nicht mehr gerade ausgeht.
+
 ## STA-06 | Fridolin
 typ: ruhe
 kapitel: 1
@@ -157,6 +166,9 @@ bild: images/STA-06.png
 Und so schlich Kim weiter. Als schließlich nur noch eine Biegung sie von der Sicht auf die Quelle trennte, begann das Wimmern eine andere Form anzunehmen. Kim glaubte, Schluchzer und Worte zu verstehen: „kaputt… nein… kaputt… wie… muss reparieren… nein… bitte nicht… ich brauch dich doch…“ Kim horchte auf. Das klang gar nicht gefährlich, das klang wie tiefe Trauer und Verzweiflung. Ihr Jagdmesser immer noch fest umklammert, schlich Kim um die letzte Kurve und blieb wie angewurzelt stehen, als sie sah, was oder besser wer sich da an der Quelle befand. Sie ließ das Messer sinken und richtete sich auf. Das kleine geschuppte Wesen vor ihr quietschte erschrocken auf und starrte sie mit großen, tränenunterlaufenen Augen an. „B-b-b-bitte t-t-t-tu mir nichts.“ Sofort wallte Mitleid für den kleinen Kerl in Kim auf, aber sie hatte über lange Jahre gelernt, nicht jedem Anblick sofort zu trauen. „Wer bist du und wie hast du mich gefunden?“, fragte sie herrisch. „Ich… ich bin doch nur Fridolin, ich komme aus den Glimmergipfeln… aber ich bin weggelaufen“, fügte der kleine Kerl trotzig hinzu. Erst jetzt fiel ihr auf, wie klein Fridolin war. „Fridolin heißt du also, aber alle Wesen aus den Glimmergipfeln sind normalerweise viel größer. Ich habe noch nie so einen kleinen Drachen wie dich gesehen“, sagte Kim, jetzt schon etwas ruhiger. „Ich bin ja auch erst 147 Jahre alt“, verteidigte sich Fridolin trotzig. „Aber was macht eine Waldelfe so weit hier draußen? Ich dachte, ich bin hier sicher… vor den anderen Drachen.“ Fridolins große Augen schienen Kim förmlich zu durchleuchten. „Das geht dich gar nichts an, du bist hier auf meinem Land, das ist meine Quelle, von der du da trinkst, ich will nichts mit dir zu schaffen! Mach, dass du das Weite suchst!“ Kim bemerkte gar nicht, wie sie ihr Messer wieder hervorgeholt hatte und nun direkt über dem kleinen Wesen stand und mit pochenden Adern auf ihn hinabstarrte.
 @audio audio/STA-06_02.m4a
 Mit jedem Wort war Fridolin weiter in sich zusammengesunken und erneut kullerten nun Tränen über seine schuppige, grüne Schnauze. Erst jetzt fiel Kim auf, dass er etwas in seinen Vorderklauen umklammert hielt. „Aber… aber… ich dachte, Waldelfen sind immer freundlich und hilfsbereit“, schniefte er. „Ich dachte, du kannst mir vielleicht helfen.“ „Helfen? Helfen bei was?“, fragte Kim schroff. „Hiermit“, sagte Fridolin, öffnete seine Klauen und streckte Kim etwas Gelbes entgegen. Kim musste sich bücken, um es im Dunkel des Waldes erkennen zu können. „Was ist da…“ Sie musste lachen, als sie erkannte, was Fridolin ihr da entgegenstreckte. Es war ein Teddybär. Am Nacken war die Naht aufgeplatzt und etwas weiße Schafwolle quoll hervor. „Ich habe schon versucht… aber mit meinen Krallen mache ich ihn noch mehr kaputt… und ich brauche ihn doch… ohne ihn kann ich nicht richtig schlafen… und überhaupt, wer beschützt mich denn, wenn Teddy kaputt ist… und ich hab keinen Faden…“, stammelte der kleine Drache. „Kannst du mir helfen?… Bitte… Danach ziehe ich auch wieder meines Weges, aber ich will nur wieder richtig schlafen können.“ Fridolins Kulleraugen schauten Kim flehend an. Kim seufzte: „Na gut, dann komm mal mit!“
+
+[weiter]
+Dreh dich um, Kim will zurück. Unter den verbotenen Kinder weißt dir Bernhard den Weg. Folge ihm. Privater Grund ach was. Der Turm ruft uns. Da ist ein Hotel hinter dem Brunnen. 
 
 ## STA-07 | Der Bär
 typ: kleine
@@ -169,6 +181,9 @@ Fast musste Kim schmunzeln. Sie gaben schon ein lustiges Duo ab, wie sie da durc
 @audio audio/STA-07_02.m4a
 Kim ließ sich nicht beeindrucken. Zu sehr schmerzte der Verlust ihrer kostbaren Karotten. Sie machte kehrt und ging zur Kate. Noch in der Bewegung nahm sie wahr, wie wieder ein schillernder Lichtreflex aufblitzte. Sie drehte sich um, und richtig, da zwischen den Karotten lag wieder eine Schuppe. Daher kamen die also! „Ja, mir fallen die immer aus, wenn ich mich ganz arg erschrecke…“, sagte Fridolin kleinlaut. Kim bückte sich und hob die Schuppe auf.
 „Wir reparieren deinen Teddy, und dann verschwindest du von hier!“, sagte sie immer noch mit Wut in der Stimme. Fridolin tapselte mit hängendem Kopf und hinterherschleifendem Schwanz hinter ihr her.
+
+[weiter]
+Mir ist schon ganz schön kalt. Ich glaube ich muss mich aufwärmen. Gleich hinter dem Brunnen geht es weiter.. oder war es Brunner…?
 
 ## STA-08 | Der Teddy
 typ: volle
@@ -201,6 +216,9 @@ Als sie damit fertig war, drehte sie sich zur Kate um und ging mit den Stümmelc
 [aufgabe-ende]
 Fridolins Teddy hat am Nacken eine aufgeplatzte Naht. Nähe sie zu. Nadel und Faden hast du dabei. Tippe danach auf Erledigt.
 
+[weiter]
+Ein Tor markiert doch immer den Ausgang oder? Aber welches kann es sein? Da! Ich Sebald den Weg raus. Hinterm Zwinger mit Lebensfreude links rum. Das Stromnetz zieht den Weg. Bist du sicher das die Brücke hält? 
+
 ## STA-09 | Haferschleim mit Karotten
 typ: ruhe
 kapitel: 1
@@ -212,6 +230,9 @@ Wenig später drehte sich Fridolin um und hielt zu Kims Erstaunen zwei dampfende
 Fridolin schaute sie strahlend an: „Aber na klar, das sind Tante Gerdas berühmte, mit Honig karamellisierte Karröttchen.“ Kim setzte sich und sah Fridolin entgegen, der zum Tisch gewatschelt kam. Sie nahm ihm die Schalen ab und stellte sie auf den Tisch. „Wie hast du überhaupt den Herd anbekommen?“ Fridolin sah sie verständnislos an: „Ich bin ein Drache.“
 „Ja, aber ich dachte, Drachen entwickeln ihre Feuerzunge erst mit… ähm“, räusperte sie sich, „tja… nun ja, mit Geschlechtsreife…“ Fridolin, der inzwischen auf den Tisch gesprungen war und mit erstaunlicher Feinmotorik den Haferschleim in sich hineinschaufelte, sagte schmatzend zwischen zwei Löffeln: „Na ja, das ist ein Gerücht, das die älteren Drachen streuen, um ihre Überlegenheit gegenüber uns Jüngeren auszubauen. In Wirklichkeit bekommen die meisten Drachen ab einem Alter von etwa hundert Jahren ihre Feuerzunge.“ Genüsslich schmatzend saugte er an der letzten, leicht glasigen Karotte.
 Kim wandte sich ihrer Schale zu: Karotten auf dem Haferschleim. Sie schüttelte den Kopf, nahm aber einen Löffel voll, in der Erwartung eines Essens, das sie sich würde reinquälen müssen. Sie führte den Löffel zur Nase, schnupperte und schob ihn sich dann in den Mund. Kauend stutzte sie. So etwas Gutes hatte sie schon lange nicht mehr gegessen. Nun schaufelte sie, wie es auch Fridolin getan hatte, das Essen in sich hinein. Als sie aufgegessen hatte, schob sie die blank geputzte Schale von sich und warf einen Blick zu Fridolin, der zufrieden seinen frisch geflickten Teddy an sich drückte. „Und jetzt?“, fragte sie.
+
+[weiter]
+Jetzt aber schnell ins Grüne! Mit einer Sperrung im Rücken weiter bis zur nächsten Brücken. Schon wieder Strom! 
 
 ## STA-10 | Onkel Theo
 typ: ruhe
@@ -235,6 +256,9 @@ Fridolin überlegte: „Ich habe mal gehört, dass er wie ich zu den vegetarisch
 Kim merkte, wie das alte Fernweh in ihr aufkam. Das Meer! Wie lange hatte sie sich schon nicht mehr die salzige Brise durch die Haare wehen lassen! Bei dem Gedanken, ihre Kate zu verlassen, schlug ihr Herz schneller, doch das Fernweh war stärker. Und überhaupt, es waren ja noch zwei Monde bis zum Jahrestag, und die konnte sie genauso gut damit verbringen, zusammen mit Fridolin seinen Onkel zu suchen.
 „Na gut, lass mich ein paar Sachen zusammenpacken. Ich helfe dir, Onkel Theo zu finden.“
 
+[weiter]
+Zurück und links. Am grünen Notfall vorbei und weiter bis es fiept. Auf dem Rückweg klingen die Füße hohl und du weißt hier muss es sein.
+
 ## STA-11 | Die Schlinge
 typ: kleine
 kapitel: 2
@@ -253,6 +277,9 @@ Löse den Knoten. Tippe danach auf Erledigt.
 [geloest]
 @audio audio/STA-11_02.m4a
 Fridolin plumpste zu Boden und begann sofort zu schimpfen: „Ich hasse Fallen! Wer auch immer diese Falle gestellt hat, soll zu Waiwais letztem Drachenfurz fahren, wie kann man bloß…“ Er streckte sich ächzend und zog eine Drachenschuppe unter seinem Hintern hervor: „Auch das noch… abgebrochen…“, sagte er und schmiss die Schuppe schimpfend auf den Boden. Nach einer Weile hatte er sich wieder beruhigt, eine weitere Karotte gefressen und war auf den Weg zurückgekehrt. Kim hob die Drachenschuppe auf. Sie hielt es für klüger, Fridolin zu verschweigen, dass es ihre Falle gewesen war, die sie zu ihrem eigenen Schutz und gegen Fremde von außen platziert hatte. Nun liefen sie weiter Richtung aufgehender Sonne.
+
+[weiter]
+Folge dem Weg. Ob du dich hier wohl verstecken kannst, so mit durchsichtigen Wänden? 
 
 ## STA-12 | Der Händler
 typ: volle
@@ -289,6 +316,9 @@ Schließlich entschied sie sich dafür, dem Händler die soeben entstandene Skiz
 @audio audio/STA-12_05.m4a
 Kim zog die Hand weg und steckte hastig ihren Zeichenblock in ihre Tasche. „Danke, wir brauchen keine Hilfe, und schon gar nicht von jemandem, der dafür nur Gold in den Augen hat.“ Sie bemerkte gar nicht, wie sehr ihre Angst vor Fremden aus ihr sprach. „Nein“, presste sie noch einmal heraus. Die Gesichtszüge des Händlers fielen in sich zusammen. „Dann wohl nicht, werte Herrin“, sagte er, jegliche Beflissenheit aus seiner Stimme gewichen. Er wandte sich ab und ließ die Peitsche knallen. „Der Weg bleibt der eure und mein Weg der meine.“ Mit diesen Worten verschwand der Karren hinter den Hügeln.
 
+[weiter]
+Wasser zu der linken weiter gegangen bis zu unserem Nachtlager, Schau mal da rennen sie aber! Nur keine grünen Hunde.
+
 ## STA-13 | Der Hase
 typ: ruhe
 kapitel: 2
@@ -303,6 +333,9 @@ Im Schein des Feuers, kaum einen Schritt entfernt, saß ein kleiner Hase. Er hie
 Er rutschte auf dem Hintern ein Stück näher. „Na du? Hast bestimmt Hunger, oder?“ Der Hase mümmelte unbekümmert weiter an der Karotte. „Ich nenne dich einfach Hase, bis du mir deinen Namen verrätst.“ Dann zog er eine zweite Karotte aus dem Bündel, brach sie in der Mitte durch und legte eine Hälfte vor den Hasen. Kim schüttelte den Kopf. „Das ist das Gegenteil von sparsam.“ „Er hat doch Hunger und ich habe noch genug“, stellte Fridolin klar. „Und er kommt jetzt jeden Abend, du wirst sehen“, brummte Kim.
 Später, als das Feuer heruntergebrannt war, lag Fridolin zusammengerollt, den gelben Teddy fest im Arm. Der Hase hatte sich ein Stück abseits ins Gras gekuschelt, ein Fellknäuel am Rand des Lichts. Kim legte sich auf ihren Mantel, mit dem Rücken zur wärmenden Glut und dem Jagdmesser wie immer in Reichweite. Nur ein Hase, dachte sie. Trotzdem lauschte sie in dieser Nacht länger als sonst auf sein leises Schnaufen.
 
+[weiter]
+Das Wasser bleibt links. Eine Rast? Und hier kann man ja sogar entdecken und erleben!
+
 ## STA-14 | Nachts am Feuer
 typ: kleine
 kapitel: 2
@@ -316,6 +349,9 @@ Plötzlich fuhr Fridolin mit einem Schrei hoch. Kim zuckte in einem Sekundenbruc
 @audio audio/STA-14_02.m4a
 Kim hörte förmlich Fridolins Stimme in ihrem Kopf: „Ja, mir fallen die immer aus, wenn ich mich ganz arg erschrecke“, hatte er gesagt. Sie hob die Schuppe auf und drehte sie zwischen den Fingern. Es war schon die vierte. Sie steckte sie zu den anderen in ihre Tasche.
 Einen Moment blieb sie vor dem kleinen schlafenden Drachen stehen. „Zu viel sein“, murmelte sie leise. „Pah.“ Dann holte sie ihren Mantel von ihrem Lagerplatz und deckte ihn über Fridolin und den Teddy. „Nur damit er nicht noch einmal schreit und die ganze Gegend weckt“, sagte sie sich. Als sie sich abwandte, sah sie, wie der kleine Hase aufmerksam dasaß und sie beobachtete. „Was?“, fragte sie flüsternd. „Willst du mich verpfeifen?“ Sie drehte sich weg und legte sich wieder an ihren Platz auf der anderen Seite des Feuers. Sie sah Fridolin noch so lange an, bis ihr die Augen von allein zufielen.
+
+[weiter]
+Aber wie kommen wir denn überhaupt über diesen Fluss drüber?
 
 ## STA-15 | Die Brücke
 typ: volle
@@ -362,6 +398,9 @@ Kim atmete aus. „Dann rede.“ Der Wächter lehnte sich erneut an das Gelände
 @audio audio/STA-15_04.m4a
 „Behalte, was du weißt“, sagte Kim. Der Wächter zuckte mit den Schultern. „Wie ihr wollt.“ Fridolin sah sie vorwurfsvoll an. „Du bist aber unhöflich.“ „Nein, mein Lieber. Ich bin vorsichtig“, sagte Kim belehrend und ging an dem nun wieder entspannt da lehnenden Mann vorbei.
 
+[weiter]
+Jetzt aber schnell über die Brücke und gerade aus. Rot weiße Wächter teilen die Wege.
+
 ## STA-16 | Salz in der Luft
 typ: ruhe
 kapitel: 2
@@ -375,6 +414,9 @@ Sie folgten noch eine Weile dem Pfad durch die sanft rollenden Hügel, bis es al
 Fridolin sah in die Flammen. „Kim?“ „Hm.“ „Woher kommst du eigentlich? Also, davor.“ Kim stocherte in der Glut. „Aus einer großen Stadt.“ „Ich war noch nie in einer Stadt. Gibt es da Karotten?“ „Oh ja, da gibt es vieles“, sagte Kim. „Mehr als du dir in deinem kleinen Kopf vorstellen kannst.“ Fridolins einzige Antwort war ein zaghaft gehauchtes „Hm“, und dann umhüllte Stille das Lagerfeuer.
 Als Fridolin eingeschlafen war, saß Kim noch lange wach und starrte gedankenverloren in die Glut. „Ja, die große Stadt…“ Es fühlte sich an, als wäre das vor einem Jahrhundert gewesen. Morgen würde sie das Meer wiedersehen. Sie fragte sich, was sie dort zu finden hoffte, für ihn oder für sich selbst. Der Hase, der neben Teddy gedöst hatte, hob einmal den Kopf, als würde er sagen wollen: „Du wirst schon sehen.“ Kim legte den Kopf auf ihren zusammengeknüllten Mantel und schlief endlich ein.
 
+[weiter]
+Weiter und bei blau-weiß links bis zu Ende. Rot weißes Massivhaus.
+
 ## STA-17 | Das Meer
 typ: ruhe
 kapitel: 3
@@ -386,6 +428,9 @@ Am nächsten Morgen weckte sie ein Rauschen. Zuerst dachte Kim, dass es der Wind
 Vor ihr lag das Meer. Es zog sich bis zum Rand der Welt, grau und silbern schimmernd, und die Wellen rollten in langen Reihen gegen die Küste. Die salzige Brise fuhr ihr durch die Haare, genauso, wie sie es sich ausgemalt hatte, und für einen Augenblick vergaß sie alles andere.
 Hinter ihr keuchte Fridolin den Hügel herauf. „Wow“, hauchte er. „Das ist ja so viel Wasser. Hört das irgendwo auf?“ „Auf der anderen Seite“, sagte Kim. „Es gibt eine andere Seite?“ Er klammerte sich an seinen Teddy. „Und wie kommt man dahin?“ „Gar nicht. Wir müssen nur an der Küste entlang.“ Fridolin sah erleichtert aus.
 Neben seinem Fuß saß der Hase, die hängenden Ohren flatterten im Wind, und schaute aufs Wasser. Auf Kim wirkte es, als hätte er es schon einmal gesehen. Und richtig, da hoppelte er auch schon den Hang hinunter, als wüsste er den Weg. Kim schulterte ihr Bündel. „Komm. Onkel Theo wartet nicht ewig.“ „Er wird 3000“, sagte Fridolin. „Ich glaube schon, dass er noch ein bisschen Zeit hat.“
+
+[weiter]
+Jetzt weiß ich ja garnicht mehr wo lang. Ich glaube wir müssen nach links. Eine gelbe 22 links erscheint sinnvoll. Ist denn ein rosanes Mobilfunknetz einen Blick wert?
 
 ## STA-18 | Fünf Pfade
 typ: kleine
@@ -422,6 +467,9 @@ Links der Taverne liegt mindestens ein Pfad, rechts von ihr liegen mindestens dr
 [geloest]
 @audio audio/STA-18_02.m4a
 Sie nahmen den zweiten Pfad. Auf halbem Weg blitzte im Sand etwas auf. Kim bückte sich. Es war die fünfte Schuppe. Fridolin hatte sie wohl verloren, als er das Meer zum ersten Mal sah. Kim steckte sie zu den anderen vier in ihre Tasche. Fünf Schuppen, dachte sie. Wofür, wusste sie noch nicht.
+
+[weiter]
+Das Netz im Rücken über die Wiesen. Warte mal, hier gibt es wirklich eine Taverne?
 
 ## STA-19 | PHO’s Taverne
 typ: volle
@@ -489,6 +537,9 @@ Kim spürte, wie ihre Kehle eng wurde. Sie sah die Klauen auf dem Tisch, die Nar
 [danach]
 @audio audio/STA-19_13.m4a
 Hinter der Tür war es dunkel und still. Das Rauschen des Meeres klang gedämpft, als läge ein ganzes Haus dazwischen. Etwas Großes bewegte sich in der Tiefe des Raums, und zwei Augen blitzten auf. Kim hielt den Atem an.
+
+[weiter]
+Die Münze sieht aber komisch aus.
 
 ## STA-20 | Hinter der Tür
 typ: ruhe
